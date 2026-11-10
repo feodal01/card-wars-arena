@@ -4,7 +4,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 
 ## Cards
 
-- `Building_Autoplucker` Autoplucker — Building, FionnaCake, rarity 5, Universal, mana 1. When your creature in this lane dies from losing all HP, deal 5 damage to the opposing hero.
+- `Building_Autoplucker` Autoplucker — Building, Fionna & Cake, rarity 5, Universal, mana 1. When your creature in this lane dies from losing all HP, deal 5 damage to the opposing hero.
 - `Building_BlueCastle` Astral Fortress — Building, Standard, rarity 1, Universal, mana 1. Creature in this lane gets +4 Defense.
 - `Building_CaveOfSolitude` Cave of Solitude — Building, Standard, rarity 4, Universal, mana 1. The friendly creature here gains +5 attack and +5 defense for every friendly lane without a creature. When the building leaves, subtract 5 attack and 5 defense for each of your creatures in play.
 - `Building_ComfyCave` Comfy Cave — Building, Standard, rarity 3, Universal, mana 1. At the start of your turn, heal your creature in this lane for 2 HP per friendly creature in play, including itself.
@@ -39,13 +39,13 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Creature_ArcherDan` Archer Dan — Creature, Standard, rarity 2, Corn, mana 2, attack 12, defense 6, floop 2 mana. Choose an opposing creature and lower its Attack by 4.
 - `Creature_Axey` Axey — Creature, Standard, rarity 2, Plains, mana 2, attack 13, defense 5, floop 1 mana. Return the building opposite this creature to its owner's hand. If the hand is full, send the card to the opponent's discard pile.
 - `Creature_BadRose` Bad Rose — Creature, Standard, rarity 3, Cotton, mana 3, attack 19, defense 21, floop 6 mana. Shuffle your hand into your deck and draw up to 5 cards. The next player to start their turn with their own copy of Bad Rose in play gains 2 mana. Neither player can use this floop while the bonus is pending.
-- `Creature_BanshePrincess` Banshe Princess — Creature, FionnaCake, rarity 1, Swamp, mana 1, attack 7, defense 2, floop 3 mana. Deal 4 Damage to creature in the opposing lane.
-- `Creature_BansheQueen` Banshe Queen — Creature, FionnaCake, rarity 3, Swamp, mana 3, attack 10, defense 19, floop 3 mana. Deal 4 Damage to all opposing creatures.
+- `Creature_BanshePrincess` Banshe Princess — Creature, Fionna & Cake, rarity 1, Swamp, mana 1, attack 7, defense 2, floop 3 mana. Deal 4 Damage to creature in the opposing lane.
+- `Creature_BansheQueen` Banshe Queen — Creature, Fionna & Cake, rarity 3, Swamp, mana 3, attack 10, defense 19, floop 3 mana. Deal 4 Damage to all opposing creatures.
 - `Creature_BeachMum` Beach Mum — Creature, Standard, rarity 2, Sand, mana 2, attack 9, defense 11, floop 3 mana. Gain +2 Attack and +3 Defense.
 - `Creature_BlueberryDjini` Blueberry Djini — Creature, Standard, rarity 1, Cotton, mana 1, attack 2, defense 7, floop 2 mana. Heal your Hero 2 points. Your hero must be wounded.
 - `Creature_BogBum` Bog Bum — Creature, Standard, rarity 2, Swamp, mana 2, attack 8, defense 10, floop 2 mana. Deal 5 Damage to creature in the opposing lane
 - `Creature_BogbansheAngel` Bog BanShe Angel — Creature, Standard, rarity 4, Swamp, mana 4, attack 24, defense 15, floop 3 mana. Deal 4 Damage for each card in your hand to the creature in the opposing lane.
-- `Creature_BogfrogBomb` Bog Frog Bomb — Creature, FionnaCake, rarity 4, Swamp, mana 4, attack 16, defense 18, floop 4 mana. Deal 7 Damage to all opposing creatures.
+- `Creature_BogfrogBomb` Bog Frog Bomb — Creature, Fionna & Cake, rarity 4, Swamp, mana 4, attack 16, defense 18, floop 4 mana. Deal 7 Damage to all opposing creatures.
 - `Creature_BurningBush` Ethan Allfire — Creature, Standard, rarity 1, Corn, mana 1, attack 5, defense 1, floop 1 mana. Reduce the opposing creature's attack by 3. Send the creature that flooped to your discard pile.
 - `Creature_CactusBall` Green Cactaball — Creature, Standard, rarity 1, Sand, mana 1, attack 4, defense 3, floop 1 mana. Gain +2 Defense.
 - `Creature_CactusThug` Cactus Thug — Creature, Standard, rarity 5, Sand, mana 5, attack 25, defense 12, floop 2 mana. Deal damage to the opposing creature equal to this creature's current defense.
@@ -88,9 +88,9 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Creature_FlySwatter` Broken Fly Swatter — Creature, Standard, rarity 3, Swamp, mana 3, attack 0, defense 1, floop 3 mana. Choose an opposing Corn creature and deal 5 damage to it.
 - `Creature_FreezyJ` Freezy J. — Creature, Standard, rarity 2, Universal, mana 2, attack 4, defense 6, floop 1 mana. Gain +4 Defense.
 - `Creature_Fummy` Fummy — Creature, Standard, rarity 4, Sand, mana 4, attack 10, defense 24, floop 2 mana. This creature and adjacent creatures gain +6 Defense.
-- `Creature_FuriousChick` Furious Chick — Creature, FionnaCake, rarity 3, Universal, mana 3, attack 7, defense 8, floop 2 mana. Adjacent creatures gain +3 Attack.
-- `Creature_FuriousHen` Furious Hen — Creature, FionnaCake, rarity 3, Cotton, mana 3, attack 6, defense 24, floop 2 mana. Deal 3 damage to the opposing creature if present. Heal this creature for 4 HP. Requires an opposing creature in this lane or a wound on this creature.
-- `Creature_FuriousRooster` Furious Rooster — Creature, FionnaCake, rarity 5, Cotton, mana 5, attack 15, defense 28, floop 2 mana. Deal 10 damage to the opposing creature if present. Heal this creature for 6 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_FuriousChick` Furious Chick — Creature, Fionna & Cake, rarity 3, Universal, mana 3, attack 7, defense 8, floop 2 mana. Adjacent creatures gain +3 Attack.
+- `Creature_FuriousHen` Furious Hen — Creature, Fionna & Cake, rarity 3, Cotton, mana 3, attack 6, defense 24, floop 2 mana. Deal 3 damage to the opposing creature if present. Heal this creature for 4 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_FuriousRooster` Furious Rooster — Creature, Fionna & Cake, rarity 5, Cotton, mana 5, attack 15, defense 28, floop 2 mana. Deal 10 damage to the opposing creature if present. Heal this creature for 6 HP. Requires an opposing creature in this lane or a wound on this creature.
 - `Creature_FutureScholar` Future Scholar — Creature, Standard, rarity 3, Universal, mana 3, attack 2, defense 13, floop 1 mana. Gain 3 extra Magic Points next turn.
 - `Creature_GL_BrainGooey` Brain Gooey — Creature, Gold, rarity 5, Universal, mana 5, attack 5, defense 20, floop 1 mana. Reduce every opposing creature's attack by 12 and send this creature directly to your discard pile. Requires an opposing creature.
 - `Creature_GL_FisherFish` Fisher Fish — Creature, Gold, rarity 5, Universal, mana 5, attack 0, defense 25, floop 2 mana. Return a random card from your discard pile to your hand. Requires room in hand.
@@ -108,7 +108,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Creature_HW_DjiniGhost` Ghost Djini — Creature, Halloween, rarity 4, Plains, mana 4, attack 10, defense 28, floop 6 mana. Shuffle your hand into your deck and draw up to 5 cards.
 - `Creature_HW_GhostBull` Ghost Bull — Creature, Halloween, rarity 5, Cotton, mana 5, attack 20, defense 28, floop 6 mana. Deal 20 damage to the opposing creature if present. Heal this creature for 28 HP. Requires an opposing creature in this lane or a wound on this creature.
 - `Creature_HW_GhostSludger` Ghost Sludger — Creature, Halloween, rarity 4, Corn, mana 4, attack 1, defense 37, floop 6 mana. +13 Attack.
-- `Creature_HW_GhostlyTree` Ghost Tree — Creature, Halloween, rarity 4, Swamp, mana 4, attack 19, defense 19, floop 6 mana. Deal 3 damage to the creature opposite this one for each complete group of 1 cards in your discard pile. Requires at least one complete group.
+- `Creature_HW_GhostlyTree` Ghost Tree — Creature, Halloween, rarity 4, Swamp, mana 4, attack 19, defense 19, floop 6 mana. Deal 3 damage to the creature opposite this one for each complete group of 1 card in your discard pile. Requires at least one complete group.
 - `Creature_HW_GiantMummyHand` Giant Mummy Hand — Creature, Halloween, rarity 4, Sand, mana 4, attack 9, defense 29, floop 6 mana. This creature and adjacent creatures gain +10 Defense.
 - `Creature_HW_LtMushroom` Lt. Mushroom — Creature, Halloween, rarity 4, Cotton, mana 4, attack 14, defense 25, floop 6 mana. If your opponent has creatures, choose one and deal 14 damage to it. Heal this creature for 25 HP. A wounded creature can use this floop even when the opposing field is empty.
 - `Creature_HW_MadameSeota` Madame Seota — Creature, Halloween, rarity 5, Plains, mana 5, attack 29, defense 19, floop 6 mana. Draw up to 3 cards. Requires a card in your deck and room in your hand.
@@ -116,7 +116,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Creature_HW_TreeOfUgliness` Ugly Tree — Creature, Halloween, rarity 5, Corn, mana 5, attack 15, defense 33, floop 6 mana. Adjacent creatures gain +9 Attack.
 - `Creature_HW_UniKnight` Unicycle Knight — Creature, Halloween, rarity 5, Universal, mana 5, attack 12, defense 13, floop 6 mana. Adjacent creatures gain +13 Defense.
 - `Creature_HW_WizardOfPoo` Po the Wizard — Creature, Halloween, rarity 5, Swamp, mana 5, attack 7, defense 40, floop 6 mana. Deal 15 Damage to all opposing creatures.
-- `Creature_HateBird` Hate Bird — Creature, FionnaCake, rarity 5, Cotton, mana 5, attack 5, defense 40, floop 3 mana. Heal this creature for HP equal to the opposing creature's attack.
+- `Creature_HateBird` Hate Bird — Creature, Fionna & Cake, rarity 5, Cotton, mana 5, attack 5, defense 40, floop 3 mana. Heal this creature for HP equal to the opposing creature's attack.
 - `Creature_Herculeye` Herculeye — Creature, Standard, rarity 2, Swamp, mana 2, attack 11, defense 9, floop 1 mana. Deal 2 Damage for each card in your hand to the creature in the opposing lane.
 - `Creature_HotEyeBat` Hot Eyebat — Creature, Standard, rarity 2, Swamp, mana 2, attack 8, defense 9, floop 2 mana. Deal 4 Damage to any opposing creature.
 - `Creature_HuskerGiant` Husker Giant — Creature, Standard, rarity 5, Corn, mana 5, attack 15, defense 30, floop 1 mana. Gain +2 attack for each of your Corn landscapes. Requires at least one such landscape.
@@ -138,7 +138,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Creature_MsMummy` Ms. Mummy — Creature, Standard, rarity 1, Sand, mana 1, attack 3, defense 6, floop 3 mana. Adjacent creatures gain +3 Defense.
 - `Creature_MudAngel` Mud Angel — Creature, Standard, rarity 3, Sand, mana 3, attack 9, defense 21, floop 1 mana. Choose an opposing creature and lower its Defense by 6.
 - `Creature_MusicMallard` Music Mallard — Creature, Standard, rarity 2, Cotton, mana 2, attack 4, defense 12, floop 3 mana. Heal this creature and adjacent creatures 5 points. This creature or at least one of its neighbors must be wounded.
-- `Creature_NiceBird` Nice Bird — Creature, FionnaCake, rarity 5, Cotton, mana 5, attack 5, defense 35, floop 1 mana. Heal each adjacent friendly creature for HP equal to this creature's current defense. Then send this creature to your discard pile. Requires a wounded neighbor.
+- `Creature_NiceBird` Nice Bird — Creature, Fionna & Cake, rarity 5, Cotton, mana 5, attack 5, defense 35, floop 1 mana. Heal each adjacent friendly creature for HP equal to this creature's current defense. Then send this creature to your discard pile. Requires a wounded neighbor.
 - `Creature_Ninja` Ordinary Ninja — Creature, Standard, rarity 1, Universal, mana 1, attack 4, defense 1, floop 2 mana. Deal 3 Damage to creature in opposing lane.
 - `Creature_OrangeSlimey` Orange Slimey — Creature, Standard, rarity 1, Swamp, mana 1, attack 3, defense 4, floop 1 mana. Deal 4 damage to the opposing creature. Send the creature that flooped to your discard pile.
 - `Creature_PapercutTiger` Papercut Kitten — Creature, Standard, rarity 2, Cotton, mana 2, attack 0, defense 1, floop 2 mana. Give this creature +2 attack and heal it for 2 HP.
@@ -186,7 +186,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Creature_TravelinSkeleton` Travelin' Skeleton — Creature, Standard, rarity 1, Universal, mana 1, attack 2, defense 3, floop 1 mana. Deal 4 damage to a random creature on either side. Requires at least one opposing creature in play.
 - `Creature_TravelinWizard` Travelin' Wizard — Creature, Standard, rarity 4, Cotton, mana 4, attack 12, defense 23, floop 1 mana. Heal a random wounded creature on your side for 12 HP.
 - `Creature_TreeEvil` Tree of Underneath — Creature, Standard, rarity 3, Swamp, mana 3, attack 20, defense 10, floop 3 mana. Deal 2 Damage to all opposing creatures and heal all of your creatures 4 points.
-- `Creature_Unicyclops` Unicylops — Creature, FionnaCake, rarity 5, Swamp, mana 5, attack 20, defense 28, floop 5 mana. Deal 10 Damage to all opposing creatures
+- `Creature_Unicyclops` Unicylops — Creature, Fionna & Cake, rarity 5, Swamp, mana 5, attack 20, defense 28, floop 5 mana. Deal 10 Damage to all opposing creatures
 - `Creature_VampBaldMan` Baldferatu — Creature, Gold, rarity 3, Swamp, mana 3, attack 18, defense 17, floop 2 mana. Deal damage to the opposing creature equal to 200% of the last single hit this creature took, rounded down. This amount resets at the start of your battle phase. Requires a recorded hit greater than zero.
 - `Creature_VampCactus` Count Cactus — Creature, Gold, rarity 5, Sand, mana 5, attack 5, defense 48, floop 5 mana. Increase the size of seat A's block zone by 150% for B's next attack phase. If B goes first and uses this on turn one, the bonus expires when combat is skipped.
 - `Creature_VampCorn` ChupaMaiz — Creature, Gold, rarity 3, Corn, mana 3, attack 13, defense 13, floop 3 mana. Increase the size of seat A's critical-hit zone by 200% for A's next attack phase. If A goes first and uses this on turn one, the bonus expires when combat is skipped.
@@ -215,7 +215,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Creature_XMAS_SnowSwamp` Pete Bog — Creature, Christmas, rarity 1, Swamp, mana 2, attack 9, defense 12, floop 2 mana. Deal 3 Damage for each card in your hand to the creature in the opposing lane.
 - `Creature_XMAS_WallOfChocolate` Wall of Chocolate — Creature, Christmas, rarity 5, Sand, mana 3, attack 5, defense 20, floop 2 mana. Heal each of your other creatures for 5 HP. Deal 2 damage to this creature.
 - `Spell_BananaButt` Banana Butt — Spell, Standard, rarity 4, Universal, mana 1. Send one of your creature cards from play directly to your discard pile and draw 1 card. Requires a card in your deck.
-- `Spell_BlackholePendant` BlackHole Pendant — Spell, FionnaCake, rarity 5, Universal, mana 4. Multiply every creature's defense by 0.5, rounding down. Existing wounds remain.
+- `Spell_BlackholePendant` BlackHole Pendant — Spell, Fionna & Cake, rarity 5, Universal, mana 4. Multiply every creature's defense by 0.5, rounding down. Existing wounds remain.
 - `Spell_BloodTransfusion` Blood Transfusion — Spell, Standard, rarity 3, Universal, mana 3. Heal your hero for 5 HP and deal 5 damage to the opposing hero.
 - `Spell_BoneWand` Bone Wand — Spell, Standard, rarity 2, Universal, mana 2. Choose a friendly Swamp creature facing an opposing creature. Your creature deals damage to that enemy equal to your creature's attack.
 - `Spell_BriefPower` Brief Power — Spell, Standard, rarity 5, Universal, mana 1. Your remaining cards cost 1 less mana this turn. Requires at least 2 cards in hand, including this spell.
@@ -235,7 +235,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Spell_HotDogRain` Hot Dog Rain — Spell, Standard, rarity 3, Universal, mana 1. Your opponent cannot play building cards on their next turn.
 - `Spell_IncredibleEgg` Incredible Egg — Spell, Standard, rarity 5, Universal, mana 2. Add a random creature card from your deck to your hand. The card also stays in the deck and can be drawn later.
 - `Spell_KungFuPower` Kung Fu Power — Spell, Standard, rarity 5, Universal, mana 5. Deal damage equal to remaining HP to each opposing creature of rarity 4 or higher.
-- `Spell_LonelyHearts` Lonely Hearts — Spell, FionnaCake, rarity 5, Universal, mana 1. If your opponent has exactly one creature, deal damage equal to its remaining HP to it.
+- `Spell_LonelyHearts` Lonely Hearts — Spell, Fionna & Cake, rarity 5, Universal, mana 1. If your opponent has exactly one creature, deal damage equal to its remaining HP to it.
 - `Spell_Migraine` Wizard Migraine — Spell, Standard, rarity 1, Universal, mana 1. Discard your hand and gain 4 Magic Points.
 - `Spell_PieStorm` Pie Storm — Spell, Standard, rarity 4, Universal, mana 3. Requires one of your creatures to be wounded. Fully heal every creature on both sides.
 - `Spell_PortalToNowhere` Portal to Nowhere — Spell, Standard, rarity 4, Universal, mana 1. Return all your creatures to your hand. Once your hand contains 7 cards, send the remaining creatures to your discard pile.
@@ -267,7 +267,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 
 - `Leader_Ash` Ash — Choose a card in your discard pile and return it to your hand. Requires room in hand. Cooldown 4 turns.
 - `Leader_BMO` BMO — Gain 2 mana this turn. Cooldown 3 turns.
-- `Leader_BMOSweater` BMO — Draw up to 3 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 5 turns.
+- `Leader_BMOSweater` BMO — Draw up to 3 cards from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 5 turns.
 - `Leader_BananaGuard` Banana Guard — Give all your creatures +3 defense. Requires at least one matching creature in play. Cooldown 3 turns.
 - `Leader_BerryBones` BerryBones — Choose a card in your discard pile and return it to your hand. Requires room in hand. Cooldown 4 turns.
 - `Leader_Blumps` Blumps — Give all your creatures +3 attack. Requires at least one matching creature in play. Cooldown 3 turns.
@@ -277,15 +277,15 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Leader_DonutGoon` Donut Goon — Give all your creatures +5 attack. Requires at least one matching creature in play. Cooldown 3 turns.
 - `Leader_DrDonut` Dr. Donut — Choose a creature card in your discard pile and return it to your hand. Requires room in hand. Cooldown 5 turns.
 - `Leader_Earl` Earl Of Lemongrab — Your creature cards cost 1 less mana this turn. Requires a creature card in hand. Cooldown 3 turns.
-- `Leader_ElFisto` El Fisto — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
-- `Leader_ElFistoA` El Fisto — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
-- `Leader_ElFistoB` El Fisto — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_ElFisto` El Fisto — Draw up to 2 cards from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_ElFistoA` El Fisto — Draw up to 2 cards from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_ElFistoB` El Fisto — Draw up to 2 cards from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
 - `Leader_Finn` Finn — Gain 2 mana this turn. Cooldown 5 turns.
 - `Leader_FinnDoctor` Doctor Finn — Your spell cards cost 1 less mana this turn. Requires a spell card in hand. Cooldown 3 turns.
 - `Leader_FinnPajama` Pajama Finn — Give all your Universal creatures +5 defense. Requires at least one matching creature in play. Cooldown 3 turns.
 - `Leader_FinnSweater` Finn — Give all your Universal creatures +5 attack. Requires at least one matching creature in play. Cooldown 5 turns.
 - `Leader_Fionna` Fionna — Your creature cards cost 1 less mana this turn. Requires a creature card in hand. Cooldown 3 turns.
-- `Leader_FlamePrincess` Flame Princess — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 4 turns.
+- `Leader_FlamePrincess` Flame Princess — Draw up to 2 cards from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 4 turns.
 - `Leader_Gunter` Gunter — Choose a spell card in your discard pile and return it to your hand. Requires room in hand. Cooldown 3 turns.
 - `Leader_Gunter_FC` Gunter — Choose a spell card in your discard pile and return it to your hand. Requires room in hand. Cooldown 3 turns.
 - `Leader_Hunson` Hunson Abadeer — Your cards cost 1 less mana this turn. Requires at least 2 cards in hand. Cooldown 4 turns.
@@ -309,7 +309,7 @@ Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards
 - `Leader_PrincessBubblegum` Princess Bubblegum — Fully heal all your wounded creatures. Requires at least one matching creature in play. Cooldown 4 turns.
 - `Leader_PrincessBubblegumSweater` Princess Bubblegum — Give all your creatures +4 attack. Requires at least one matching creature in play. Cooldown 5 turns.
 - `Leader_PrincessCookie` Princess Cookie — Give all your Swamp creatures +4 attack. Requires at least one matching creature in play. Cooldown 3 turns.
-- `Leader_Ricardio` Ricardio Heart Guy — Draw up to 1 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_Ricardio` Ricardio Heart Guy — Draw up to 1 card from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
 - `Leader_Slumpy` Slumpy — Your creature cards cost 1 less mana this turn. Requires a creature card in hand. Cooldown 3 turns.
 - `Leader_SnowBerry` Snowberry — Fully heal all your wounded creatures. Requires at least one matching creature in play. Cooldown 3 turns.
 - `Leader_SnowFist` SnowFist — Your spell cards cost 2 less mana this turn. Requires a spell card in hand. Cooldown 3 turns.

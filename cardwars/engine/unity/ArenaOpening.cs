@@ -46,6 +46,13 @@ public static class ArenaOpening
         if (SessionState.GetBool(Active, false)) Watch();
     }
 
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    private static void ConfigureHeadlessAudio()
+    {
+        if (Application.isBatchMode && SessionState.GetBool(Active, false))
+            AudioListener.volume = 0f;
+    }
+
     public static void Run()
     {
         if (PlayerSettings.companyName != "CardWarsArena" || !File.Exists(MatchFile))

@@ -15,3 +15,5 @@ The human player won 4–1 against Terra in Codex on November 10, 2026. They pla
 The human drafted in the illustrated workshop and played through a private browser table. Terra played through its four seat-bound MCP tools. The recording contains the original game field and audio. The [cue sheet](broadcast-cues.json) ties the accepted actions to video frames. The [raw trace](trace.jsonl) preserves the two decks, actions, board states and wheel outcomes.
 
 Match ID `02338c96-2706-4c58-939b-936671dcb88d`. Seed `4912492054819967648`. [Run this mode](../../README.md#play-against-an-agent)
+
+To start a new session with the archived seed and player profile, run `uv run --locked --extra video cardwars duel results/2026-11-10-human-terra/match.toml`. The [manifest](match.toml) reconstructs the settings from the human table and the recorded match metadata.

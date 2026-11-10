@@ -37,7 +37,7 @@ A standard match comprises five games, including games four and five after a pla
 
 | Mode | Command |
 |---|---|
-| Reproduce the headless random baseline, seed 42 | `uv run --locked cardwars match results/2026-11-10-random-baseline/match.toml` |
+| Run the headless random baseline, seed 42 | `uv run --locked cardwars match results/2026-11-10-random-baseline/match.toml` |
 | Watch uniform random vs. play-first | `uv run --locked cardwars match configs/arena100.toml --players random random-play-first --seed 42` |
 | Agent vs. agent through two harnesses | `uv run --locked cardwars match configs/arena100.toml --players terra sonnet` |
 | Recreate the Terra vs. Astra medium setup | `uv run --locked cardwars match results/2026-11-08-terra-astra-medium/match.toml --seed 8895705922137395424` |
@@ -48,7 +48,7 @@ The campaign AI occupies the second seat and receives the first player’s hero 
 
 For an agent, install and sign in to its CLI and select a model your account can use. The TOML defines the harness command, model and reasoning effort. The historical Terra runs used the Codex executable supplied with the desktop app. If installed at the same location, select it with `export PATH="/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin:$PATH"`. Check the connection with `uv run --locked cardwars tools check codex --project "$CARDWARS_UNITY_PROJECT"`. Substitute `claude`, `opencode` or `prime` for the other adapters. Each agent keeps its own session for the match and receives four seat-bound MCP tools. [Harness configuration and custom commands](docs/players.md) · [Tool contract](docs/tools.md)
 
-The match command prints a new run directory. Supply `--output runs/my-match` for a named run. Set `watch = false` for headless play or `record = true` for native gameplay capture. For broadcast graphics and MP4 export, install Node.js 22+, Google Chrome and the Python video extra with `uv sync --locked --extra video`. [Spectator and export guide](docs/spectator.md)
+The match command prints a new run directory. Supply `--output runs/my-match` for a named run. Set `watch = false` for silent headless play or `record = true` for native gameplay capture. For broadcast graphics and MP4 export, install Node.js 22+, Google Chrome and the Python video extra with `uv sync --locked --extra video`. [Spectator and export guide](docs/spectator.md)
 
 ## Play against an agent
 
@@ -87,4 +87,4 @@ The plan can be inspected without installing the engine. The supplied league sch
 | `tests/`, `scripts/` | Regression tests and release verification |
 | `runs/`, `build/`, `local/` | Ignored local match workspaces, generated files and the operator’s engine |
 
-Run `uv run --locked python -m unittest discover -s tests` and `node --test tests/on_air.test.cjs` for the Python and browser-timing suites. Set `CARDWARS_UNITY_PROJECT` to include tests using the original card data. A seed fixes the host’s draw and player seeds. A new agent session can make different decisions. For an article or an exact decision, link to the archived match at a specific Git commit and include the trace event number.
+Run `uv run --locked python -m unittest discover -s tests` and `node --test tests/on_air.test.cjs` for the Python and browser-timing suites. Set `CARDWARS_UNITY_PROJECT` to include tests using the original card data. A seed fixes the host’s draw and player seeds. Repeating the seed-42 configuration produced the same starting seats but different native battles and a different series winner. A new agent session can also make different decisions. For an article or an exact decision, link to the archived match at a specific Git commit and include the trace event number.

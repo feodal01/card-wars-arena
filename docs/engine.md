@@ -14,3 +14,14 @@ uv run --locked cardwars verify runs/baseline-42/trace.jsonl
 ```
 
 The prepared project may be reused for future matches. The host takes an exclusive lock while using it. Inspect `import.log` if Unity fails on first import, and the corresponding run’s `game-N/unity.log` for a battle startup failure. Use [the archived baseline](../results/2026-11-10-random-baseline/trace.html) to compare the five-game result. The [catalog audit](rules-review.md) explains the source hashes and generated card descriptions.
+
+## Starting from your own Android copy
+
+The recovery used for these recordings combined the Android v1.11.0 application with its matching expansion data. The APK contains the managed assemblies under `assets/bin/Data/Managed/`. The `main.92.com.turner.cardwars.obb` expansion contains the bulk of the serialized game assets. Keep the two archives from the same build together and work in a separate directory.
+
+1. Extract the two archives locally, retaining the `assets/` directory layout. Preserve the original managed assemblies. Builds labelled v1.11.0 can contain different assemblies.
+2. The historical export used AssetRipper 2.0.0, hybrid script export, extracted streaming assets and decompiled shaders. Its exported project targeted Unity 5.2.3f1. The native Android data also contained 5.2.1p3 assets.
+3. Before the Unity 2022 arena setup, that export required a game port. The recovery repaired serialization for lane arrays, camera targets and creature spawn points, migrated legacy particle and GUI components, restored materials and streaming Blueprint tables, and configured local startup. In an already ported project, confirm that the startup scene can enter a battle with two five-card opening hands.
+4. Run the preparation and baseline commands above. Compare the generated English catalog to the [published catalog](catalog.md) and verify the match trace.
+
+The reproducibility check for this release starts at the working Unity 2022 editor project. The APK extraction and legacy-to-2022 migration are historical recovery notes, not an automated APK importer. Keep the recovered source and game assets outside Git; `local/` is ignored.
