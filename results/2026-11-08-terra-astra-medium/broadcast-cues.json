@@ -1,0 +1,856 @@
+{
+  "video": "broadcast.mp4",
+  "sha256": "5a72ecdafc2b138a22512a10a5d56624665563419096db79c0b1c2ae7d19f0eb",
+  "trace_sha256": "a0a4697208f3c87f382df6f5f901a84d533eb3ff4ba8ff2511f2ebf3af56545c",
+  "fps": 30,
+  "frames": 31673,
+  "chapters": [
+    {
+      "game": 1,
+      "start_frame": 0,
+      "end_frame": 6065,
+      "actions": [
+        {
+          "frame": 818,
+          "trace_seq": 8
+        },
+        {
+          "frame": 909,
+          "trace_seq": 11
+        },
+        {
+          "frame": 1001,
+          "trace_seq": 14
+        },
+        {
+          "frame": 1093,
+          "trace_seq": 17
+        },
+        {
+          "frame": 1207,
+          "trace_seq": 20
+        },
+        {
+          "frame": 1321,
+          "trace_seq": 23
+        },
+        {
+          "frame": 1413,
+          "trace_seq": 26
+        },
+        {
+          "frame": 1505,
+          "trace_seq": 29
+        },
+        {
+          "frame": 1618,
+          "trace_seq": 32
+        },
+        {
+          "frame": 1771,
+          "trace_seq": 35
+        },
+        {
+          "frame": 1832,
+          "trace_seq": 38
+        },
+        {
+          "frame": 1913,
+          "trace_seq": 41
+        },
+        {
+          "frame": 1994,
+          "trace_seq": 44
+        },
+        {
+          "frame": 2162,
+          "trace_seq": 47
+        },
+        {
+          "frame": 2322,
+          "trace_seq": 50
+        },
+        {
+          "frame": 2560,
+          "trace_seq": 53
+        },
+        {
+          "frame": 2744,
+          "trace_seq": 56
+        },
+        {
+          "frame": 2930,
+          "trace_seq": 59
+        },
+        {
+          "frame": 3012,
+          "trace_seq": 62
+        },
+        {
+          "frame": 3181,
+          "trace_seq": 65
+        },
+        {
+          "frame": 3341,
+          "trace_seq": 68
+        },
+        {
+          "frame": 3486,
+          "trace_seq": 71
+        },
+        {
+          "frame": 3547,
+          "trace_seq": 74
+        },
+        {
+          "frame": 3872,
+          "trace_seq": 77
+        },
+        {
+          "frame": 4054,
+          "trace_seq": 80
+        },
+        {
+          "frame": 4199,
+          "trace_seq": 83
+        },
+        {
+          "frame": 4437,
+          "trace_seq": 86
+        },
+        {
+          "frame": 4597,
+          "trace_seq": 89
+        },
+        {
+          "frame": 4658,
+          "trace_seq": 92
+        },
+        {
+          "frame": 4982,
+          "trace_seq": 95
+        },
+        {
+          "frame": 5161,
+          "trace_seq": 98
+        },
+        {
+          "frame": 5326,
+          "trace_seq": 101
+        },
+        {
+          "frame": 5407,
+          "trace_seq": 104
+        },
+        {
+          "frame": 5551,
+          "trace_seq": 107
+        },
+        {
+          "frame": 5688,
+          "trace_seq": 110
+        },
+        {
+          "frame": 5749,
+          "trace_seq": 113
+        },
+        {
+          "frame": 5810,
+          "trace_seq": 116
+        }
+      ]
+    },
+    {
+      "game": 2,
+      "start_frame": 6065,
+      "end_frame": 10709,
+      "actions": [
+        {
+          "frame": 6791,
+          "trace_seq": 126
+        },
+        {
+          "frame": 6883,
+          "trace_seq": 129
+        },
+        {
+          "frame": 6975,
+          "trace_seq": 132
+        },
+        {
+          "frame": 7067,
+          "trace_seq": 135
+        },
+        {
+          "frame": 7159,
+          "trace_seq": 138
+        },
+        {
+          "frame": 7251,
+          "trace_seq": 141
+        },
+        {
+          "frame": 7343,
+          "trace_seq": 144
+        },
+        {
+          "frame": 7435,
+          "trace_seq": 147
+        },
+        {
+          "frame": 7548,
+          "trace_seq": 150
+        },
+        {
+          "frame": 7703,
+          "trace_seq": 153
+        },
+        {
+          "frame": 7870,
+          "trace_seq": 156
+        },
+        {
+          "frame": 7934,
+          "trace_seq": 159
+        },
+        {
+          "frame": 8102,
+          "trace_seq": 162
+        },
+        {
+          "frame": 8163,
+          "trace_seq": 165
+        },
+        {
+          "frame": 8245,
+          "trace_seq": 168
+        },
+        {
+          "frame": 8413,
+          "trace_seq": 171
+        },
+        {
+          "frame": 8631,
+          "trace_seq": 174
+        },
+        {
+          "frame": 8791,
+          "trace_seq": 177
+        },
+        {
+          "frame": 8852,
+          "trace_seq": 180
+        },
+        {
+          "frame": 9020,
+          "trace_seq": 183
+        },
+        {
+          "frame": 9203,
+          "trace_seq": 186
+        },
+        {
+          "frame": 9284,
+          "trace_seq": 189
+        },
+        {
+          "frame": 9449,
+          "trace_seq": 192
+        },
+        {
+          "frame": 9524,
+          "trace_seq": 195
+        },
+        {
+          "frame": 9752,
+          "trace_seq": 198
+        },
+        {
+          "frame": 9897,
+          "trace_seq": 201
+        },
+        {
+          "frame": 10078,
+          "trace_seq": 204
+        },
+        {
+          "frame": 10229,
+          "trace_seq": 207
+        },
+        {
+          "frame": 10374,
+          "trace_seq": 210
+        }
+      ]
+    },
+    {
+      "game": 3,
+      "start_frame": 10709,
+      "end_frame": 18800,
+      "actions": [
+        {
+          "frame": 11410,
+          "trace_seq": 220
+        },
+        {
+          "frame": 11502,
+          "trace_seq": 223
+        },
+        {
+          "frame": 11594,
+          "trace_seq": 226
+        },
+        {
+          "frame": 11686,
+          "trace_seq": 229
+        },
+        {
+          "frame": 11799,
+          "trace_seq": 232
+        },
+        {
+          "frame": 11891,
+          "trace_seq": 235
+        },
+        {
+          "frame": 11982,
+          "trace_seq": 238
+        },
+        {
+          "frame": 12073,
+          "trace_seq": 241
+        },
+        {
+          "frame": 12162,
+          "trace_seq": 244
+        },
+        {
+          "frame": 12223,
+          "trace_seq": 247
+        },
+        {
+          "frame": 12390,
+          "trace_seq": 250
+        },
+        {
+          "frame": 12472,
+          "trace_seq": 253
+        },
+        {
+          "frame": 12618,
+          "trace_seq": 256
+        },
+        {
+          "frame": 12760,
+          "trace_seq": 259
+        },
+        {
+          "frame": 12920,
+          "trace_seq": 262
+        },
+        {
+          "frame": 13079,
+          "trace_seq": 265
+        },
+        {
+          "frame": 13239,
+          "trace_seq": 268
+        },
+        {
+          "frame": 13312,
+          "trace_seq": 271
+        },
+        {
+          "frame": 13386,
+          "trace_seq": 274
+        },
+        {
+          "frame": 13612,
+          "trace_seq": 277
+        },
+        {
+          "frame": 13757,
+          "trace_seq": 280
+        },
+        {
+          "frame": 13818,
+          "trace_seq": 283
+        },
+        {
+          "frame": 13978,
+          "trace_seq": 286
+        },
+        {
+          "frame": 14039,
+          "trace_seq": 289
+        },
+        {
+          "frame": 14207,
+          "trace_seq": 292
+        },
+        {
+          "frame": 14317,
+          "trace_seq": 295
+        },
+        {
+          "frame": 14456,
+          "trace_seq": 298
+        },
+        {
+          "frame": 14609,
+          "trace_seq": 301
+        },
+        {
+          "frame": 14769,
+          "trace_seq": 304
+        },
+        {
+          "frame": 14937,
+          "trace_seq": 307
+        },
+        {
+          "frame": 15019,
+          "trace_seq": 310
+        },
+        {
+          "frame": 15100,
+          "trace_seq": 313
+        },
+        {
+          "frame": 15243,
+          "trace_seq": 316
+        },
+        {
+          "frame": 15315,
+          "trace_seq": 319
+        },
+        {
+          "frame": 15457,
+          "trace_seq": 322
+        },
+        {
+          "frame": 15610,
+          "trace_seq": 325
+        },
+        {
+          "frame": 15755,
+          "trace_seq": 328
+        },
+        {
+          "frame": 15816,
+          "trace_seq": 331
+        },
+        {
+          "frame": 16056,
+          "trace_seq": 334
+        },
+        {
+          "frame": 16217,
+          "trace_seq": 337
+        },
+        {
+          "frame": 16369,
+          "trace_seq": 340
+        },
+        {
+          "frame": 16677,
+          "trace_seq": 343
+        },
+        {
+          "frame": 16769,
+          "trace_seq": 346
+        },
+        {
+          "frame": 16915,
+          "trace_seq": 349
+        },
+        {
+          "frame": 17075,
+          "trace_seq": 352
+        },
+        {
+          "frame": 17224,
+          "trace_seq": 355
+        },
+        {
+          "frame": 17296,
+          "trace_seq": 358
+        },
+        {
+          "frame": 17441,
+          "trace_seq": 361
+        },
+        {
+          "frame": 17608,
+          "trace_seq": 364
+        },
+        {
+          "frame": 17688,
+          "trace_seq": 367
+        },
+        {
+          "frame": 17901,
+          "trace_seq": 370
+        },
+        {
+          "frame": 18053,
+          "trace_seq": 373
+        },
+        {
+          "frame": 18114,
+          "trace_seq": 376
+        },
+        {
+          "frame": 18175,
+          "trace_seq": 379
+        },
+        {
+          "frame": 18237,
+          "trace_seq": 382
+        },
+        {
+          "frame": 18391,
+          "trace_seq": 385
+        },
+        {
+          "frame": 18466,
+          "trace_seq": 388
+        }
+      ]
+    },
+    {
+      "game": 4,
+      "start_frame": 18800,
+      "end_frame": 25056,
+      "actions": [
+        {
+          "frame": 19503,
+          "trace_seq": 398
+        },
+        {
+          "frame": 19595,
+          "trace_seq": 401
+        },
+        {
+          "frame": 19687,
+          "trace_seq": 404
+        },
+        {
+          "frame": 19779,
+          "trace_seq": 407
+        },
+        {
+          "frame": 19893,
+          "trace_seq": 410
+        },
+        {
+          "frame": 19985,
+          "trace_seq": 413
+        },
+        {
+          "frame": 20077,
+          "trace_seq": 416
+        },
+        {
+          "frame": 20169,
+          "trace_seq": 419
+        },
+        {
+          "frame": 20259,
+          "trace_seq": 422
+        },
+        {
+          "frame": 20404,
+          "trace_seq": 425
+        },
+        {
+          "frame": 20465,
+          "trace_seq": 428
+        },
+        {
+          "frame": 20545,
+          "trace_seq": 431
+        },
+        {
+          "frame": 20601,
+          "trace_seq": 434
+        },
+        {
+          "frame": 20746,
+          "trace_seq": 437
+        },
+        {
+          "frame": 20906,
+          "trace_seq": 440
+        },
+        {
+          "frame": 21074,
+          "trace_seq": 443
+        },
+        {
+          "frame": 21312,
+          "trace_seq": 446
+        },
+        {
+          "frame": 21473,
+          "trace_seq": 449
+        },
+        {
+          "frame": 21629,
+          "trace_seq": 452
+        },
+        {
+          "frame": 21710,
+          "trace_seq": 455
+        },
+        {
+          "frame": 21937,
+          "trace_seq": 458
+        },
+        {
+          "frame": 22089,
+          "trace_seq": 461
+        },
+        {
+          "frame": 22234,
+          "trace_seq": 464
+        },
+        {
+          "frame": 22295,
+          "trace_seq": 467
+        },
+        {
+          "frame": 22528,
+          "trace_seq": 470
+        },
+        {
+          "frame": 22692,
+          "trace_seq": 473
+        },
+        {
+          "frame": 22849,
+          "trace_seq": 476
+        },
+        {
+          "frame": 23011,
+          "trace_seq": 479
+        },
+        {
+          "frame": 23232,
+          "trace_seq": 482
+        },
+        {
+          "frame": 23392,
+          "trace_seq": 485
+        },
+        {
+          "frame": 23655,
+          "trace_seq": 488
+        },
+        {
+          "frame": 23801,
+          "trace_seq": 491
+        },
+        {
+          "frame": 23878,
+          "trace_seq": 494
+        },
+        {
+          "frame": 24044,
+          "trace_seq": 497
+        },
+        {
+          "frame": 24125,
+          "trace_seq": 500
+        },
+        {
+          "frame": 24430,
+          "trace_seq": 503
+        },
+        {
+          "frame": 24491,
+          "trace_seq": 506
+        },
+        {
+          "frame": 24573,
+          "trace_seq": 509
+        },
+        {
+          "frame": 24643,
+          "trace_seq": 512
+        }
+      ]
+    },
+    {
+      "game": 5,
+      "start_frame": 25056,
+      "end_frame": 31673,
+      "actions": [
+        {
+          "frame": 25779,
+          "trace_seq": 522
+        },
+        {
+          "frame": 25871,
+          "trace_seq": 525
+        },
+        {
+          "frame": 25963,
+          "trace_seq": 528
+        },
+        {
+          "frame": 26055,
+          "trace_seq": 531
+        },
+        {
+          "frame": 26147,
+          "trace_seq": 534
+        },
+        {
+          "frame": 26239,
+          "trace_seq": 537
+        },
+        {
+          "frame": 26331,
+          "trace_seq": 540
+        },
+        {
+          "frame": 26423,
+          "trace_seq": 543
+        },
+        {
+          "frame": 26537,
+          "trace_seq": 546
+        },
+        {
+          "frame": 26687,
+          "trace_seq": 549
+        },
+        {
+          "frame": 26826,
+          "trace_seq": 552
+        },
+        {
+          "frame": 26885,
+          "trace_seq": 555
+        },
+        {
+          "frame": 27045,
+          "trace_seq": 558
+        },
+        {
+          "frame": 27106,
+          "trace_seq": 561
+        },
+        {
+          "frame": 27260,
+          "trace_seq": 564
+        },
+        {
+          "frame": 27426,
+          "trace_seq": 567
+        },
+        {
+          "frame": 27643,
+          "trace_seq": 570
+        },
+        {
+          "frame": 27704,
+          "trace_seq": 573
+        },
+        {
+          "frame": 27864,
+          "trace_seq": 576
+        },
+        {
+          "frame": 28031,
+          "trace_seq": 579
+        },
+        {
+          "frame": 28190,
+          "trace_seq": 582
+        },
+        {
+          "frame": 28351,
+          "trace_seq": 585
+        },
+        {
+          "frame": 28432,
+          "trace_seq": 588
+        },
+        {
+          "frame": 28597,
+          "trace_seq": 591
+        },
+        {
+          "frame": 28679,
+          "trace_seq": 594
+        },
+        {
+          "frame": 28979,
+          "trace_seq": 597
+        },
+        {
+          "frame": 29116,
+          "trace_seq": 600
+        },
+        {
+          "frame": 29177,
+          "trace_seq": 603
+        },
+        {
+          "frame": 29330,
+          "trace_seq": 606
+        },
+        {
+          "frame": 29498,
+          "trace_seq": 609
+        },
+        {
+          "frame": 29757,
+          "trace_seq": 612
+        },
+        {
+          "frame": 29861,
+          "trace_seq": 615
+        },
+        {
+          "frame": 30003,
+          "trace_seq": 618
+        },
+        {
+          "frame": 30171,
+          "trace_seq": 621
+        },
+        {
+          "frame": 30544,
+          "trace_seq": 624
+        },
+        {
+          "frame": 30636,
+          "trace_seq": 627
+        },
+        {
+          "frame": 30697,
+          "trace_seq": 630
+        },
+        {
+          "frame": 30827,
+          "trace_seq": 633
+        },
+        {
+          "frame": 30986,
+          "trace_seq": 636
+        },
+        {
+          "frame": 31156,
+          "trace_seq": 639
+        },
+        {
+          "frame": 31237,
+          "trace_seq": 642
+        }
+      ]
+    }
+  ]
+}

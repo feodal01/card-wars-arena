@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Match trace · Card Wars Arena</title><style>/* TRACE_STYLE */</style></head>
+<body><header><div class="shell mast"><b><span class="emblem">♜</span> CARD WARS <span class="slash">/</span> ARENA</b><span>Trace viewer</span></div></header>
+<main class="shell"><section id="overview"></section><section id="games" aria-label="Games"></section>
+<div id="notices"></div><section id="timeline" aria-label="Turn durations"></section><div class="workspace"><aside><h2>Timeline</h2><input id="query" type="search" aria-label="Search match" placeholder="Find a card, action, or event…">
+<div class="filters"><select id="kind" aria-label="Event type"><option value="">All event types</option><option value="action">Decisions</option><option value="wheel">Battle wheel</option><option value="draft">Draft and setup</option><option value="error">Errors and timeouts</option><option value="result">Results</option></select><select id="turn" aria-label="Turn"></select></div><div id="tree"></div></aside><section id="inspector" aria-live="polite"></section></div>
+<footer>This organizer report includes both players’ hands and decks.</footer></main><noscript>Enable JavaScript to view the trace.</noscript>
+<script id="trace-data" type="application/json">TRACE_PAYLOAD</script><script>/* TRACE_SCRIPT */</script></body></html>

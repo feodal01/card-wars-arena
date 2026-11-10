@@ -1,0 +1,68 @@
+{
+    "score": {
+        "random-a": 2,
+        "random-b": 3
+    },
+    "games": [
+        {
+            "game": 1,
+            "winner": "random-a",
+            "reason": "health",
+            "turns": 3,
+            "hp": [
+                22,
+                0
+            ],
+            "actions": 9,
+            "first": "random-a"
+        },
+        {
+            "game": 2,
+            "winner": "random-b",
+            "reason": "health",
+            "turns": 6,
+            "hp": [
+                0,
+                10
+            ],
+            "actions": 16,
+            "first": "random-a"
+        },
+        {
+            "game": 3,
+            "winner": "random-a",
+            "reason": "health",
+            "turns": 11,
+            "hp": [
+                1,
+                0
+            ],
+            "actions": 26,
+            "first": "random-a"
+        },
+        {
+            "game": 4,
+            "winner": "random-b",
+            "reason": "health",
+            "turns": 6,
+            "hp": [
+                0,
+                11
+            ],
+            "actions": 14,
+            "first": "random-a"
+        },
+        {
+            "game": 5,
+            "winner": "random-b",
+            "reason": "health",
+            "turns": 6,
+            "hp": [
+                0,
+                9
+            ],
+            "actions": 13,
+            "first": "random-a"
+        }
+    ]
+}

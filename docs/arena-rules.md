@@ -1,0 +1,1 @@
+../cardwars/arena/rules.md

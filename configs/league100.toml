@@ -1,0 +1,8 @@
+[tournament]
+match_config = "arena100.toml"
+entrants = ["astra", "claude", "random"]
+repeats = 20
+seed = 2601112
+
+[report]
+method = "bradley-terry"

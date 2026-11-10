@@ -1,0 +1,339 @@
+# Match catalog
+
+Choose one hero and 20 distinct card IDs. All cards are level 1. Universal cards can be played on any landscape. A creature's floop cost is followed by the effect of activating it. Rarity is the number of stars checked by card effects. Magic Points are mana.
+
+## Cards
+
+- `Building_Autoplucker` Autoplucker — Building, FionnaCake, rarity 5, Universal, mana 1. When your creature in this lane dies from losing all HP, deal 5 damage to the opposing hero.
+- `Building_BlueCastle` Astral Fortress — Building, Standard, rarity 1, Universal, mana 1. Creature in this lane gets +4 Defense.
+- `Building_CaveOfSolitude` Cave of Solitude — Building, Standard, rarity 4, Universal, mana 1. The friendly creature here gains +5 attack and +5 defense for every friendly lane without a creature. When the building leaves, subtract 5 attack and 5 defense for each of your creatures in play.
+- `Building_ComfyCave` Comfy Cave — Building, Standard, rarity 3, Universal, mana 1. At the start of your turn, heal your creature in this lane for 2 HP per friendly creature in play, including itself.
+- `Building_ElfTeePee` Woad Mobile Home — Building, Standard, rarity 2, Universal, mana 1. Creature in this lane gets +3 Defense for each of your creatures on the field.
+- `Building_GhostCastle` Ghost Castle — Building, Halloween, rarity 5, Universal, mana 1. Creature in this lane gets +8 Attack and +8 Defense.
+- `Building_HauntedWindmill` Haunted Windmill — Building, Halloween, rarity 4, Universal, mana 1. Gain 1 mana when your creature in this lane floops.
+- `Building_Mausoleum` Mausoleum — Building, Standard, rarity 5, Universal, mana 1. When your creature in this lane dies from losing all HP, return it to your hand even if your hand is full. Discard this building.
+- `Building_NicelandsTower` Nicelands Tower — Building, Standard, rarity 4, Universal, mana 1. Creature in this lane heals 5 Damage at the start of your turn.
+- `Building_Obelisx` Obelisx of Vengeance — Building, Standard, rarity 5, Universal, mana 1. When your creature in this lane dies from losing all HP, deal 4 damage to the opposing hero.
+- `Building_PalaceOfBone` Palace Of Bone — Building, Standard, rarity 3, Universal, mana 1. Deal 5 Damage to the opposing creature when a new creature is placed on this lane.
+- `Building_PuffyCastle` Puffy Castle — Building, Standard, rarity 5, Universal, mana 1. When your creature in this lane dies from losing all HP, heal your hero for 5 HP.
+- `Building_Pyramidia` Pyramidia — Building, Standard, rarity 2, Universal, mana 1. Creature in this lane gets +2 Defense for each card in your hand.
+- `Building_RedCastle` Corn Castle — Building, Standard, rarity 2, Universal, mana 1. Creature in this lane gets +2 Attack for each of your creatures on the field.
+- `Building_RedDome` Corn Dome — Building, Standard, rarity 1, Universal, mana 1. Creature in this lane gets +3 Attack.
+- `Building_RedParthenon` Corn Parthenon — Building, Standard, rarity 4, Universal, mana 1. When this building or your creature enters this lane, the creature gains +2 attack for each distinct landscape type on your side. When the building leaves, subtract 2 attack for each such type.
+- `Building_SandCastle` Sand Castle — Building, Standard, rarity 1, Universal, mana 1. Creature in this lane gets +4 Attack and +4 Defense.
+- `Building_SandPyramid` Sand Pyramid — Building, Standard, rarity 3, Universal, mana 1. Creature in this lane heals 5 Damage when it destroys a creature.
+- `Building_SchoolHouse` School House — Building, Standard, rarity 5, Universal, mana 1. Each time your creature in this lane floops, it gains +5 defense.
+- `Building_ShadowPyramid` Shadow Pyramid — Building, Standard, rarity 5, Universal, mana 1. Your opponent can play only creatures and buildings of rarity 3 or lower in the lane opposite this building.
+- `Building_SiloOfTruth` Silo of Truth — Building, Standard, rarity 3, Universal, mana 1. Creature in this lane gets +2 Attack for each card in your opponent's hand.
+- `Building_Sphinx` Sand Sphinx — Building, Standard, rarity 4, Universal, mana 1. Each time your creature in this lane takes damage, reduce that damage by 5, to a minimum of zero.
+- `Building_SpiritTower` Spirit Tower — Building, Standard, rarity 5, Universal, mana 1. Deal 5 Damage to the opposing hero when a new creature is placed on this lane.
+- `Building_Stonehenge` Stonehenge — Building, Standard, rarity 5, Universal, mana 1. Your creature's floop in this lane costs 1 less mana, to a minimum of zero.
+- `Building_SunPyramid` Sun Pyramid — Building, Standard, rarity 5, Universal, mana 1. Creature in this lane gets 4 Attack every time it uses a Floop ability.
+- `Building_XMAS_CandyIgloo` Candy Igloo — Building, Christmas, rarity 5, Universal, mana 1. When this building or your creature enters this lane, swap the creature's attack and defense. When the building leaves, add the creature's defense just before removal to its base attack and its attack just before removal to its base defense. Stat multipliers and existing wounds remain.
+- `Building_XMAS_FruitCake` Fruit Cake — Building, Standard, rarity 5, Universal, mana 1. Creature in this lane gets +9 Defense.
+- `Creature_AncientScholar` Ancient Scholar — Creature, Standard, rarity 2, Plains, mana 2, attack 3, defense 13, floop 3 mana. Choose a creature card in your discard pile and return it to your hand. Requires room in hand.
+- `Creature_AngelEye` Heavenly Gazer — Creature, Standard, rarity 1, Plains, mana 1, attack 1, defense 6, floop 2 mana. Draw up to 1 card. Requires a card in your deck and room in your hand.
+- `Creature_AngelHeart` Angel Heart — Creature, Standard, rarity 1, Cotton, mana 1, attack 1, defense 6, floop 1 mana. Choose one of your wounded creatures and heal it for 3 HP.
+- `Creature_AngelOfSand` Sand Angel — Creature, Standard, rarity 1, Sand, mana 1, attack 2, defense 6, floop 1 mana. Choose one of your creatures and give it +2 Defense.
+- `Creature_AngelOfVanilla` Mayonaise  Angel — Creature, Standard, rarity 2, Sand, mana 2, attack 4, defense 12, floop 2 mana. Choose one of your creatures and give it +4 Defense.
+- `Creature_ArcherDan` Archer Dan — Creature, Standard, rarity 2, Corn, mana 2, attack 12, defense 6, floop 2 mana. Choose an opposing creature and lower its Attack by 4.
+- `Creature_Axey` Axey — Creature, Standard, rarity 2, Plains, mana 2, attack 13, defense 5, floop 1 mana. Return the building opposite this creature to its owner's hand. If the hand is full, send the card to the opponent's discard pile.
+- `Creature_BadRose` Bad Rose — Creature, Standard, rarity 3, Cotton, mana 3, attack 19, defense 21, floop 6 mana. Shuffle your hand into your deck and draw up to 5 cards. The next player to start their turn with their own copy of Bad Rose in play gains 2 mana. Neither player can use this floop while the bonus is pending.
+- `Creature_BanshePrincess` Banshe Princess — Creature, FionnaCake, rarity 1, Swamp, mana 1, attack 7, defense 2, floop 3 mana. Deal 4 Damage to creature in the opposing lane.
+- `Creature_BansheQueen` Banshe Queen — Creature, FionnaCake, rarity 3, Swamp, mana 3, attack 10, defense 19, floop 3 mana. Deal 4 Damage to all opposing creatures.
+- `Creature_BeachMum` Beach Mum — Creature, Standard, rarity 2, Sand, mana 2, attack 9, defense 11, floop 3 mana. Gain +2 Attack and +3 Defense.
+- `Creature_BlueberryDjini` Blueberry Djini — Creature, Standard, rarity 1, Cotton, mana 1, attack 2, defense 7, floop 2 mana. Heal your Hero 2 points. Your hero must be wounded.
+- `Creature_BogBum` Bog Bum — Creature, Standard, rarity 2, Swamp, mana 2, attack 8, defense 10, floop 2 mana. Deal 5 Damage to creature in the opposing lane
+- `Creature_BogbansheAngel` Bog BanShe Angel — Creature, Standard, rarity 4, Swamp, mana 4, attack 24, defense 15, floop 3 mana. Deal 4 Damage for each card in your hand to the creature in the opposing lane.
+- `Creature_BogfrogBomb` Bog Frog Bomb — Creature, FionnaCake, rarity 4, Swamp, mana 4, attack 16, defense 18, floop 4 mana. Deal 7 Damage to all opposing creatures.
+- `Creature_BurningBush` Ethan Allfire — Creature, Standard, rarity 1, Corn, mana 1, attack 5, defense 1, floop 1 mana. Reduce the opposing creature's attack by 3. Send the creature that flooped to your discard pile.
+- `Creature_CactusBall` Green Cactaball — Creature, Standard, rarity 1, Sand, mana 1, attack 4, defense 3, floop 1 mana. Gain +2 Defense.
+- `Creature_CactusThug` Cactus Thug — Creature, Standard, rarity 5, Sand, mana 5, attack 25, defense 12, floop 2 mana. Deal damage to the opposing creature equal to this creature's current defense.
+- `Creature_CaptainTaco` Captain Taco — Creature, Standard, rarity 5, Corn, mana 5, attack 15, defense 30, floop 1 mana. Reduce the opposing creature's attack by 1 per card in the opponent's hand.
+- `Creature_CareCrow` Travelin' Farmer — Creature, Standard, rarity 1, Corn, mana 1, attack 5, defense 5, floop 1 mana. Gain +1 attack for each adjacent friendly lane without a creature. Buildings do not count. Requires at least one such lane.
+- `Creature_ChestBurster` Chest Burster — Creature, Standard, rarity 4, Swamp, mana 4, attack 12, defense 28, floop 3 mana. Deal 2 Damage to the opposing Hero for every card in your hand.
+- `Creature_CoolDog` Cool Dog — Creature, Standard, rarity 1, Plains, mana 1, attack 3, defense 7, floop 1 mana. Creature in opposing lane cannot use its Floop ability next turn. The opposing creature's floop must still be available to block.
+- `Creature_CornDog` Corn Dog — Creature, Standard, rarity 2, Corn, mana 2, attack 9, defense 11, floop 3 mana. Adjacent creatures gain +4 Attack.
+- `Creature_CornEyeBat` Huskerbat — Creature, Standard, rarity 3, Corn, mana 3, attack 4, defense 22, floop 2 mana. Reduce the opposing creature's attack by this creature's current attack.
+- `Creature_CornLord` Corn Lord — Creature, Standard, rarity 5, Corn, mana 5, attack 10, defense 38, floop 2 mana. Choose one of your creatures and give it +6 attack.
+- `Creature_CornRonin` Corn Ronin — Creature, Standard, rarity 3, Corn, mana 3, attack 18, defense 10, floop 2 mana. +3 Attack for every card in your hand. Requires a card in hand.
+- `Creature_CornWall` Wall of Ears — Creature, Standard, rarity 2, Corn, mana 2, attack 0, defense 18, floop 1 mana. If this creature has more than 2 HP, deal 2 damage to it and give it +2 attack.
+- `Creature_CornWorm` Husker Worm — Creature, Standard, rarity 1, Corn, mana 1, attack 3, defense 5, floop 2 mana. Lower the Attack of the creature in the opposing lane by 2.
+- `Creature_Cornataur` Cornataur — Creature, Standard, rarity 4, Corn, mana 4, attack 17, defense 19, floop 3 mana. This creature and adjacent creatures gain +5 Attack.
+- `Creature_Cornball` Cornball — Creature, Standard, rarity 1, Corn, mana 1, attack 2, defense 5, floop 2 mana. +1 Attack.
+- `Creature_CottonEyeBat` Nicelands Eye Bat — Creature, Standard, rarity 2, Cotton, mana 2, attack 7, defense 10, floop 3 mana. Choose one of your wounded creatures and heal it for 4 HP per card in your hand. Requires at least one card in hand.
+- `Creature_Cottonpult` Cottonpult — Creature, Standard, rarity 5, Cotton, mana 5, attack 25, defense 20, floop 3 mana. Deal 7 damage to the opposing creature if present. Heal this creature for 7 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_CottonsaurusRex` Cottonsaurus Rex — Creature, Standard, rarity 5, Cotton, mana 5, attack 7, defense 40, floop 3 mana. Heal your Hero equal to this creature's Attack. Your hero must be wounded.
+- `Creature_Cow` The Cow — Creature, Standard, rarity 3, Cotton, mana 3, attack 4, defense 26, floop 3 mana. Heal all of your creatures 5 points. Requires a wounded friendly creature.
+- `Creature_CowGhost` Heifergeist — Creature, Standard, rarity 3, Plains, mana 3, attack 13, defense 15, floop 2 mana. Fully heal this creature and clear its additive attack and defense modifiers. Stat multipliers remain in effect.
+- `Creature_DarkAngel` Dark Angel — Creature, Standard, rarity 4, Swamp, mana 4, attack 20, defense 15, floop 3 mana. Deal 5 Damage to all opposing creatures.
+- `Creature_DevilEye` Evil Eye — Creature, Standard, rarity 2, Universal, mana 2, attack 5, defense 5, floop 1 mana. Lower the Attack of the creature in the opposing lane by 4.
+- `Creature_DiamondDan` Diamond Dan — Creature, Standard, rarity 5, Plains, mana 5, attack 1, defense 47, floop 1 mana. Send this creature directly to your discard pile and gain 6 mana this turn.
+- `Creature_DogBoy` Dog Boy — Creature, Standard, rarity 3, Cotton, mana 3, attack 13, defense 17, floop 1 mana. Deal 5 damage to the opposing creature if present. Heal this creature for 5 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_DrDeath` Dr. Death — Creature, Standard, rarity 5, Swamp, mana 5, attack 35, defense 10, floop 1 mana. Deal 7 damage to the opposing creature if present. Heal this creature for 7 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_DrStuffenstein` Intern Stuffenstein — Creature, Standard, rarity 4, Cotton, mana 4, attack 0, defense 1, floop 2 mana. Choose one of your wounded creatures and heal it for 4 HP per friendly building. Requires a friendly building.
+- `Creature_DragonClaw` Dragon Claw — Creature, Standard, rarity 2, Plains, mana 2, attack 5, defense 15, floop 2 mana. Choose a building card in your discard pile and return it to your hand. Requires room in hand.
+- `Creature_DragonFoot` Dragon Foot — Creature, Standard, rarity 4, Plains, mana 4, attack 5, defense 32, floop 3 mana. Destroy a Building in the opposing lane.
+- `Creature_Earl` Earl — Creature, Standard, rarity 3, Universal, mana 3, attack 10, defense 5, floop 1 mana. Adjacent creatures gain +3 Attack.
+- `Creature_ElfChief` Woadic Chief — Creature, Standard, rarity 5, Plains, mana 5, attack 18, defense 30, floop 3 mana. No Creature or Building may be summoned on the opposing lane next turn. The lane must currently be open for summons.
+- `Creature_ElfMarauder` Woadic Marauder — Creature, Standard, rarity 4, Plains, mana 4, attack 22, defense 12, floop 1 mana. Choose an opposing building and return it to its owner's hand. If the hand is full, send the card to the opponent's discard pile.
+- `Creature_EmbarrassingBard` Embarrassing Bard — Creature, Standard, rarity 5, Plains, mana 5, attack 10, defense 34, floop 2 mana. Choose an opposing creature. It cannot use its Floop ability next turn. Choose a creature whose floop has not already been blocked.
+- `Creature_ExtraordinarySpider` Mama Spider — Creature, Standard, rarity 4, Swamp, mana 4, attack 19, defense 19, floop 3 mana. Deal 4 damage to the creature opposite this one for each complete group of 2 cards in your discard pile. Requires at least one complete group.
+- `Creature_FairyShepard` Fairy Shepard — Creature, Standard, rarity 1, Cotton, mana 1, attack 2, defense 7, floop 3 mana. Choose one of your creatures. It or one of its neighbors must be wounded. Heal the chosen creature and its neighbors for 3 HP each.
+- `Creature_FarmerTom` Farmer Tom — Creature, Standard, rarity 4, Cotton, mana 4, attack 12, defense 21, floop 2 mana. Choose one of your wounded creatures and heal it for 6 HP per friendly building. Requires a friendly building.
+- `Creature_FatGoat` Fat Goat — Creature, Standard, rarity 2, Cotton, mana 2, attack 5, defense 14, floop 2 mana. Heal adjacent creatures 4 points. Requires a wounded neighbor.
+- `Creature_FieldReaper` Field Reaper — Creature, Standard, rarity 4, Corn, mana 4, attack 25, defense 13, floop 3 mana. Lower the Attack of all opposing creatures by 4.
+- `Creature_Fluffantry` Fluffantry — Creature, Standard, rarity 5, Cotton, mana 5, attack 20, defense 25, floop 3 mana. Heal your Hero 2 points for each of your creatures on the field. Your hero must be wounded.
+- `Creature_Flufflapillar` Fluffapillar — Creature, Standard, rarity 1, Cotton, mana 1, attack 2, defense 5, floop 2 mana. Heal adjacent creatures 3 points. Requires a wounded neighbor.
+- `Creature_FlySwatter` Broken Fly Swatter — Creature, Standard, rarity 3, Swamp, mana 3, attack 0, defense 1, floop 3 mana. Choose an opposing Corn creature and deal 5 damage to it.
+- `Creature_FreezyJ` Freezy J. — Creature, Standard, rarity 2, Universal, mana 2, attack 4, defense 6, floop 1 mana. Gain +4 Defense.
+- `Creature_Fummy` Fummy — Creature, Standard, rarity 4, Sand, mana 4, attack 10, defense 24, floop 2 mana. This creature and adjacent creatures gain +6 Defense.
+- `Creature_FuriousChick` Furious Chick — Creature, FionnaCake, rarity 3, Universal, mana 3, attack 7, defense 8, floop 2 mana. Adjacent creatures gain +3 Attack.
+- `Creature_FuriousHen` Furious Hen — Creature, FionnaCake, rarity 3, Cotton, mana 3, attack 6, defense 24, floop 2 mana. Deal 3 damage to the opposing creature if present. Heal this creature for 4 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_FuriousRooster` Furious Rooster — Creature, FionnaCake, rarity 5, Cotton, mana 5, attack 15, defense 28, floop 2 mana. Deal 10 damage to the opposing creature if present. Heal this creature for 6 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_FutureScholar` Future Scholar — Creature, Standard, rarity 3, Universal, mana 3, attack 2, defense 13, floop 1 mana. Gain 3 extra Magic Points next turn.
+- `Creature_GL_BrainGooey` Brain Gooey — Creature, Gold, rarity 5, Universal, mana 5, attack 5, defense 20, floop 1 mana. Reduce every opposing creature's attack by 12 and send this creature directly to your discard pile. Requires an opposing creature.
+- `Creature_GL_FisherFish` Fisher Fish — Creature, Gold, rarity 5, Universal, mana 5, attack 0, defense 25, floop 2 mana. Return a random card from your discard pile to your hand. Requires room in hand.
+- `Creature_Ghost` Temporal Wisp — Creature, Standard, rarity 3, Plains, mana 3, attack 9, defense 17, floop 2 mana. The opposing creature skips its next attack on its owner's turn. Requires an opposing creature that is still allowed to attack.
+- `Creature_GhostHag` Ghost Hag — Creature, Standard, rarity 4, Plains, mana 4, attack 10, defense 28, floop 3 mana. Choose a friendly creature with wounds or an additive attack or defense modifier. Fully heal it and clear those modifiers. Stat multipliers remain in effect.
+- `Creature_GhostNinja` Ghost Ninja — Creature, Standard, rarity 3, Universal, mana 3, attack 5, defense 10, floop 1 mana. Deal 4 damage to the opposing creature if present. Heal this creature for 5 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_GhostStalker` Field Stalker — Creature, Standard, rarity 4, Corn, mana 4, attack 5, defense 34, floop 2 mana. Replace the opposing creature's attack modifier so that its attack before multipliers equals this creature's current attack.
+- `Creature_GiantFoot` Big Foot — Creature, Standard, rarity 3, Universal, mana 3, attack 7, defense 8, floop 2 mana. Deal 4 damage each to the creature opposite this one and its neighbors. The opposing lane must contain a creature.
+- `Creature_GrapeSlimey` Grape Slimey — Creature, Standard, rarity 1, Plains, mana 1, attack 2, defense 5, floop 1 mana. Draw up to 1 card and send this creature to your discard pile. Requires a card in your deck and room in your hand.
+- `Creature_GrayEyeBat` Gray Eyebat — Creature, Standard, rarity 1, Swamp, mana 1, attack 3, defense 5, floop 2 mana. Deal 2 Damage to any opposing creature.
+- `Creature_GreenMermaid` Green Mermaid — Creature, Standard, rarity 3, Swamp, mana 3, attack 11, defense 17, floop 1 mana. Deal 3 Damage for each of your buildings to the creature in the opposing lane. Requires a friendly building.
+- `Creature_GreenMerman` Green Merman — Creature, Standard, rarity 2, Swamp, mana 2, attack 6, defense 12, floop 2 mana. Deal 3 Damage for each enemy building to the creature in the opposing lane. Requires an opposing building.
+- `Creature_GreenSnakey` Green Snakey — Creature, Standard, rarity 2, Universal, mana 2, attack 6, defense 4, floop 2 mana. Lower the Attack of the creature in opposing lane by 2 for each of your opponent's creatures.
+- `Creature_HW_BlackCat` Black Cat — Creature, Halloween, rarity 5, Sand, mana 5, attack 15, defense 35, floop 6 mana. Choose an opposing creature and lower its Defense by 30.
+- `Creature_HW_DjiniGhost` Ghost Djini — Creature, Halloween, rarity 4, Plains, mana 4, attack 10, defense 28, floop 6 mana. Shuffle your hand into your deck and draw up to 5 cards.
+- `Creature_HW_GhostBull` Ghost Bull — Creature, Halloween, rarity 5, Cotton, mana 5, attack 20, defense 28, floop 6 mana. Deal 20 damage to the opposing creature if present. Heal this creature for 28 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_HW_GhostSludger` Ghost Sludger — Creature, Halloween, rarity 4, Corn, mana 4, attack 1, defense 37, floop 6 mana. +13 Attack.
+- `Creature_HW_GhostlyTree` Ghost Tree — Creature, Halloween, rarity 4, Swamp, mana 4, attack 19, defense 19, floop 6 mana. Deal 3 damage to the creature opposite this one for each complete group of 1 cards in your discard pile. Requires at least one complete group.
+- `Creature_HW_GiantMummyHand` Giant Mummy Hand — Creature, Halloween, rarity 4, Sand, mana 4, attack 9, defense 29, floop 6 mana. This creature and adjacent creatures gain +10 Defense.
+- `Creature_HW_LtMushroom` Lt. Mushroom — Creature, Halloween, rarity 4, Cotton, mana 4, attack 14, defense 25, floop 6 mana. If your opponent has creatures, choose one and deal 14 damage to it. Heal this creature for 25 HP. A wounded creature can use this floop even when the opposing field is empty.
+- `Creature_HW_MadameSeota` Madame Seota — Creature, Halloween, rarity 5, Plains, mana 5, attack 29, defense 19, floop 6 mana. Draw up to 3 cards. Requires a card in your deck and room in your hand.
+- `Creature_HW_PolterClops` Polterclops — Creature, Halloween, rarity 4, Universal, mana 4, attack 0, defense 20, floop 6 mana. Requires room in your hand and a card in your deck. Return this creature to your hand, then draw up to 4 cards while you have room.
+- `Creature_HW_TreeOfUgliness` Ugly Tree — Creature, Halloween, rarity 5, Corn, mana 5, attack 15, defense 33, floop 6 mana. Adjacent creatures gain +9 Attack.
+- `Creature_HW_UniKnight` Unicycle Knight — Creature, Halloween, rarity 5, Universal, mana 5, attack 12, defense 13, floop 6 mana. Adjacent creatures gain +13 Defense.
+- `Creature_HW_WizardOfPoo` Po the Wizard — Creature, Halloween, rarity 5, Swamp, mana 5, attack 7, defense 40, floop 6 mana. Deal 15 Damage to all opposing creatures.
+- `Creature_HateBird` Hate Bird — Creature, FionnaCake, rarity 5, Cotton, mana 5, attack 5, defense 40, floop 3 mana. Heal this creature for HP equal to the opposing creature's attack.
+- `Creature_Herculeye` Herculeye — Creature, Standard, rarity 2, Swamp, mana 2, attack 11, defense 9, floop 1 mana. Deal 2 Damage for each card in your hand to the creature in the opposing lane.
+- `Creature_HotEyeBat` Hot Eyebat — Creature, Standard, rarity 2, Swamp, mana 2, attack 8, defense 9, floop 2 mana. Deal 4 Damage to any opposing creature.
+- `Creature_HuskerGiant` Husker Giant — Creature, Standard, rarity 5, Corn, mana 5, attack 15, defense 30, floop 1 mana. Gain +2 attack for each of your Corn landscapes. Requires at least one such landscape.
+- `Creature_HuskerKnight` Husker Knight — Creature, Standard, rarity 1, Corn, mana 1, attack 6, defense 3, floop 3 mana. Adjacent creatures gain +2 Attack.
+- `Creature_IceIceBaby` Nice Ice Baby — Creature, Standard, rarity 1, Universal, mana 1, attack 2, defense 3, floop 2 mana. The opposing creature skips its next attack on its owner's turn. Requires an opposing creature that is still allowed to attack.
+- `Creature_IceKnight` Ice Paladin — Creature, Standard, rarity 3, Universal, mana 3, attack 3, defense 12, floop 2 mana. Adjacent creatures gain +5 Defense.
+- `Creature_KingFluff` Good King Wonderful — Creature, Standard, rarity 5, Cotton, mana 5, attack 5, defense 40, floop 3 mana. Choose one of your wounded creatures and fully heal it.
+- `Creature_KnightOfObesity` X-Large Spirit Soldier — Creature, Standard, rarity 5, Plains, mana 5, attack 5, defense 40, floop 1 mana. Requires room in your hand and a card in your deck. Return this creature to your hand, then draw up to 1 card while you have room.
+- `Creature_LadyScarab` Lady Mary — Creature, Standard, rarity 4, Sand, mana 4, attack 18, defense 20, floop 3 mana. Increase the Defense of all of your creatures by 2 for each building you control. Requires a friendly building.
+- `Creature_LegionOfEarlings` Legion of Earlings — Creature, Standard, rarity 5, Corn, mana 5, attack 23, defense 23, floop 3 mana. All your creatures gain +5 Attack.
+- `Creature_LimeSlimey` Lime Slimey — Creature, Standard, rarity 2, Sand, mana 2, attack 8, defense 8, floop 3 mana. This creature and adjacent creatures gain +3 Defense.
+- `Creature_LostGolem` Lost Golem — Creature, Standard, rarity 5, Sand, mana 5, attack 10, defense 36, floop 1 mana. Gain +8 Defense.
+- `Creature_MaizeWalker` Immortal Maize Walker — Creature, Standard, rarity 5, Swamp, mana 5, attack 11, defense 36, floop 3 mana. Choose an opposing Corn creature and deal 33 damage to it.
+- `Creature_ManWitch` Man Witch — Creature, Standard, rarity 3, Swamp, mana 3, attack 13, defense 13, floop 2 mana. Deal 13 Damage to creature in the opposing lane
+- `Creature_ManowarElf` Woadic Time Walker — Creature, Standard, rarity 1, Plains, mana 1, attack 5, defense 5, floop 3 mana. The opposing creature becomes helpless until the start of its owner's next turn. An attack in this lane can hit the opposing hero directly.
+- `Creature_MermaidYellow` Mary-Ann — Creature, Standard, rarity 4, Corn, mana 4, attack 10, defense 27, floop 2 mana. Deal 5 damage to the opposing creature and reduce its attack by 5.
+- `Creature_MotherFluffBucket` Mother Fluff Bucket — Creature, Standard, rarity 5, Cotton, mana 5, attack 13, defense 30, floop 3 mana. Heal your Hero 5 points. Your hero must be wounded.
+- `Creature_Mouthball` Mouthball — Creature, Standard, rarity 1, Universal, mana 1, attack 3, defense 2, floop 2 mana. Creature in opposing lane cannot use Floop ability next turn. The opposing creature's floop must still be available to block.
+- `Creature_MsMummy` Ms. Mummy — Creature, Standard, rarity 1, Sand, mana 1, attack 3, defense 6, floop 3 mana. Adjacent creatures gain +3 Defense.
+- `Creature_MudAngel` Mud Angel — Creature, Standard, rarity 3, Sand, mana 3, attack 9, defense 21, floop 1 mana. Choose an opposing creature and lower its Defense by 6.
+- `Creature_MusicMallard` Music Mallard — Creature, Standard, rarity 2, Cotton, mana 2, attack 4, defense 12, floop 3 mana. Heal this creature and adjacent creatures 5 points. This creature or at least one of its neighbors must be wounded.
+- `Creature_NiceBird` Nice Bird — Creature, FionnaCake, rarity 5, Cotton, mana 5, attack 5, defense 35, floop 1 mana. Heal each adjacent friendly creature for HP equal to this creature's current defense. Then send this creature to your discard pile. Requires a wounded neighbor.
+- `Creature_Ninja` Ordinary Ninja — Creature, Standard, rarity 1, Universal, mana 1, attack 4, defense 1, floop 2 mana. Deal 3 Damage to creature in opposing lane.
+- `Creature_OrangeSlimey` Orange Slimey — Creature, Standard, rarity 1, Swamp, mana 1, attack 3, defense 4, floop 1 mana. Deal 4 damage to the opposing creature. Send the creature that flooped to your discard pile.
+- `Creature_PapercutTiger` Papercut Kitten — Creature, Standard, rarity 2, Cotton, mana 2, attack 0, defense 1, floop 2 mana. Give this creature +2 attack and heal it for 2 HP.
+- `Creature_PatchyThePumpkin` Patchy the Pumpkin — Creature, Standard, rarity 3, Corn, mana 3, attack 22, defense 5, floop 2 mana. Lower the Attack of the creature in the opposing lane by 5.
+- `Creature_PeachDjini` Peach Djini — Creature, Standard, rarity 2, Universal, mana 2, attack 2, defense 8, floop 1 mana. Choose one of your wounded creatures and heal it for 4 HP.
+- `Creature_Pentacutie` Detective Bobby — Creature, Standard, rarity 3, Cotton, mana 3, attack 5, defense 21, floop 2 mana. Adjacent creatures heal 6 points. Requires a wounded neighbor.
+- `Creature_Phyllis` Phyllis — Creature, Standard, rarity 4, Universal, mana 4, attack 5, defense 15, floop 2 mana. This creature and adjacent creatures gain +4 Attack.
+- `Creature_Pickler` The Pickler — Creature, Standard, rarity 4, Universal, mana 4, attack 12, defense 8, floop 3 mana. Lower the Defense of all opposing creatures by 5.
+- `Creature_Pieclops` Pieclops — Creature, Standard, rarity 5, Sand, mana 5, attack 20, defense 25, floop 2 mana. Lower the Defense of all opposing creatures by 5.
+- `Creature_Pig` The Pig — Creature, Standard, rarity 1, Universal, mana 1, attack 1, defense 4, floop 3 mana. Reduce the attack of all opposing Corn creatures by 1.
+- `Creature_PirateBear` Davey Bear — Creature, Standard, rarity 5, Swamp, mana 5, attack 17, defense 28, floop 3 mana. Deal 5 damage to the opposing hero. If there is a creature opposite this one, also deal 5 damage to it.
+- `Creature_PorcelainGuardian` Porcelain Guardian — Creature, Standard, rarity 5, Universal, mana 5, attack 10, defense 15, floop 1 mana. Deal 2 damage to this creature and reduce the opposing creature's defense by 10.
+- `Creature_Poultrygeist` Poultrygeist — Creature, Standard, rarity 1, Plains, mana 1, attack 2, defense 6, floop 1 mana. Gain +2 Magic Points next turn.
+- `Creature_PunkCat` Punk Cat — Creature, Standard, rarity 3, Plains, mana 3, attack 8, defense 22, floop 3 mana. Choose an adjacent friendly creature whose floop effect can resolve, except another creature with this ability. It uses its effect for free, even if it already flooped or its floop is blocked. Its flooped status stays the same.
+- `Creature_Quadurai` Quadurai — Creature, Standard, rarity 4, Universal, mana 4, attack 15, defense 5, floop 1 mana. Deal 8 Damage to creature in opposing lane.
+- `Creature_REAL_DrStuffenstein` Dr. Stuffenstein — Creature, Standard, rarity 4, Cotton, mana 4, attack 15, defense 22, floop 2 mana. Choose one of your wounded creatures and heal it for 4 HP per friendly building. Requires a friendly building.
+- `Creature_REAL_FlySwatter` Fly Swatter — Creature, Standard, rarity 3, Swamp, mana 3, attack 12, defense 17, floop 3 mana. Choose an opposing Corn creature and deal 5 damage to it.
+- `Creature_REAL_PapercutTiger` Papercut Tiger — Creature, Standard, rarity 2, Cotton, mana 2, attack 10, defense 8, floop 2 mana. Give this creature +2 attack and heal it for 2 HP.
+- `Creature_RainbowBarfer` Rainbow Barfer — Creature, Standard, rarity 5, Swamp, mana 5, attack 16, defense 34, floop 1 mana. Deal 5 Damage to creature in opposing lane for each of your different landscapes.
+- `Creature_RecordThug` Record Thug — Creature, Standard, rarity 3, Swamp, mana 3, attack 8, defense 20, floop 2 mana. Deal damage to the opposing creature equal to this creature's missing HP.
+- `Creature_RedEyeling` Red Eyeling — Creature, Standard, rarity 3, Swamp, mana 3, attack 7, defense 21, floop 3 mana. Deal 4 damage each to the creature opposite this one and its neighbors. The opposing lane must contain a creature.
+- `Creature_Rocktopus` Detective Sally — Creature, Standard, rarity 4, Universal, mana 4, attack 5, defense 15, floop 3 mana. This creature and adjacent creatures gain +6 Defense.
+- `Creature_SackOfPain` Sack O' Pain — Creature, Standard, rarity 4, Cotton, mana 4, attack 3, defense 33, floop 3 mana. Heal each adjacent friendly creature for HP equal to this creature's missing HP. Requires a wound on this creature or one of its neighbors.
+- `Creature_SandEyeBat` Sand Eyebat — Creature, Standard, rarity 1, Sand, mana 1, attack 4, defense 4, floop 1 mana. Choose an opposing creature and lower its Defense by 2.
+- `Creature_SandFoot` Sandfoot — Creature, Standard, rarity 3, Sand, mana 3, attack 10, defense 17, floop 3 mana. Gain +4 Defense for each of your creatures.
+- `Creature_SandJackal` Sand Jackal — Creature, Standard, rarity 3, Sand, mana 3, attack 6, defense 21, floop 2 mana. Reduce the opposing creature's defense by this creature's current attack.
+- `Creature_SandKnight` Sand Knight — Creature, Standard, rarity 4, Sand, mana 4, attack 20, defense 20, floop 2 mana. All of your creatures gain +5 Defense.
+- `Creature_SandShark` Sandy — Creature, Standard, rarity 5, Sand, mana 5, attack 28, defense 18, floop 2 mana. Gain +3 Attack and +7 Defense.
+- `Creature_SandSnake` Sandsnake — Creature, Standard, rarity 2, Sand, mana 2, attack 12, defense 7, floop 3 mana. Lower the Defense of creature in the opposite lane by 5.
+- `Creature_Sandwitch` Sandwitch — Creature, Standard, rarity 4, Sand, mana 4, attack 25, defense 10, floop 1 mana. Give a random creature on either side +9 defense.
+- `Creature_SgtMushroom` Sgt. Mushroom — Creature, Standard, rarity 4, Cotton, mana 4, attack 26, defense 14, floop 1 mana. If your opponent has creatures, choose one and deal 4 damage to it. Heal this creature for 6 HP. A wounded creature can use this floop even when the opposing field is empty.
+- `Creature_SkeletalHand` Burning Hand — Creature, Standard, rarity 1, Sand, mana 1, attack 5, defense 2, floop 1 mana. Lower the Defense of creature in the opposite lane by 2.
+- `Creature_Sludger` The Sludger — Creature, Standard, rarity 3, Corn, mana 3, attack 15, defense 15, floop 1 mana. Give each adjacent friendly creature −2 defense and +4 attack. At least one of them must have more than 2 HP.
+- `Creature_SnakeMint` Snake Mint — Creature, Standard, rarity 2, Cotton, mana 2, attack 9, defense 9, floop 2 mana. Deal 2 damage to the opposing creature if present. Heal this creature for 4 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_SnappyDresser` Snappy Dresser — Creature, Standard, rarity 2, Swamp, mana 2, attack 4, defense 14, floop 1 mana. Deal 2 Damage to creature in opposing lane for each of your different landscapes.
+- `Creature_SnuggleTree` Snuggle Tree — Creature, Standard, rarity 2, Cotton, mana 2, attack 3, defense 15, floop 3 mana. Heal this creature and adjacent creatures 4 points. This creature or at least one of its neighbors must be wounded.
+- `Creature_SoftEyeling` Soft Eyeling — Creature, Standard, rarity 1, Cotton, mana 1, attack 2, defense 6, floop 3 mana. Choose one of your wounded creatures and heal it for 3 HP per distinct landscape type on your side.
+- `Creature_SpikedMaceStump` Mace Stump — Creature, Standard, rarity 1, Swamp, mana 1, attack 6, defense 3, floop 3 mana. Deal 3 Damage to creature in the opposing lane.
+- `Creature_SteakChop` Steak Chop — Creature, Standard, rarity 4, Swamp, mana 4, attack 20, defense 15, floop 2 mana. Deal 2 damage to the opposing creature for each creature card in the opponent's discard pile. Requires at least one such card.
+- `Creature_StruzanJinn` Struzann Jinn — Creature, Standard, rarity 4, Plains, mana 4, attack 15, defense 25, floop 3 mana. Return the creature opposite this creature to its owner's hand. If the hand is full, send the card to the opponent's discard pile.
+- `Creature_SugarImp` Improved Sugar Imp — Creature, Standard, rarity 1, Universal, mana 1, attack 1, defense 4, floop 1 mana. Heal adjacent creatures 2 points. Requires a wounded neighbor.
+- `Creature_TeethLeaf` Teeth Leaf — Creature, Standard, rarity 1, Swamp, mana 1, attack 5, defense 3, floop 2 mana. Deal 2 Damage to the opposing Hero.
+- `Creature_TheDrooler` Drooling Dude — Creature, Standard, rarity 5, Universal, mana 5, attack 14, defense 11, floop 2 mana. Gain +7 Attack and +3 Defense.
+- `Creature_TheMariachi` The Mariachi — Creature, Standard, rarity 5, Universal, mana 5, attack 5, defense 20, floop 2 mana. All of your creatures gain +4 Attack.
+- `Creature_TravelinSkeleton` Travelin' Skeleton — Creature, Standard, rarity 1, Universal, mana 1, attack 2, defense 3, floop 1 mana. Deal 4 damage to a random creature on either side. Requires at least one opposing creature in play.
+- `Creature_TravelinWizard` Travelin' Wizard — Creature, Standard, rarity 4, Cotton, mana 4, attack 12, defense 23, floop 1 mana. Heal a random wounded creature on your side for 12 HP.
+- `Creature_TreeEvil` Tree of Underneath — Creature, Standard, rarity 3, Swamp, mana 3, attack 20, defense 10, floop 3 mana. Deal 2 Damage to all opposing creatures and heal all of your creatures 4 points.
+- `Creature_Unicyclops` Unicylops — Creature, FionnaCake, rarity 5, Swamp, mana 5, attack 20, defense 28, floop 5 mana. Deal 10 Damage to all opposing creatures
+- `Creature_VampBaldMan` Baldferatu — Creature, Gold, rarity 3, Swamp, mana 3, attack 18, defense 17, floop 2 mana. Deal damage to the opposing creature equal to 200% of the last single hit this creature took, rounded down. This amount resets at the start of your battle phase. Requires a recorded hit greater than zero.
+- `Creature_VampCactus` Count Cactus — Creature, Gold, rarity 5, Sand, mana 5, attack 5, defense 48, floop 5 mana. Increase the size of seat A's block zone by 150% for B's next attack phase. If B goes first and uses this on turn one, the bonus expires when combat is skipped.
+- `Creature_VampCorn` ChupaMaiz — Creature, Gold, rarity 3, Corn, mana 3, attack 13, defense 13, floop 3 mana. Increase the size of seat A's critical-hit zone by 200% for A's next attack phase. If A goes first and uses this on turn one, the bonus expires when combat is skipped.
+- `Creature_VampGhost` Fantasmo — Creature, Gold, rarity 5, Plains, mana 5, attack 15, defense 38, floop 3 mana. Requires room in your hand and an opposing creature in this lane. Deal 4 damage to it. If its HP before the hit was at most 4, take its card from the opponent's discard pile into your hand when it dies while facing this creature.
+- `Creature_VampMarshmallow` Candyr — Creature, Gold, rarity 3, Cotton, mana 3, attack 10, defense 25, floop 3 mana. Increase the size of seat A's counterattack zone by 200% for B's next attack phase. If B goes first and uses this on turn one, the bonus expires when combat is skipped.
+- `Creature_WallOfSand` Wall Of Sand — Creature, Standard, rarity 3, Sand, mana 3, attack 0, defense 26, floop 2 mana. Adjacent creatures gain +4 Defense.
+- `Creature_WanderingBaldMan` Wandering Bald Man — Creature, Standard, rarity 1, Swamp, mana 1, attack 2, defense 5, floop 2 mana. Deal 2 Damage to creature in the opposing lane.
+- `Creature_WeakVampBaldMan` Weak Baldferatu — Creature, Halloween, rarity 1, Swamp, mana 3, attack 5, defense 15, floop 2 mana. Deal 3 damage to the opposing creature. Send the creature that flooped to your discard pile.
+- `Creature_WeakVampCorn` Weak ChupaMaiz — Creature, Halloween, rarity 1, Corn, mana 3, attack 4, defense 10, floop 2 mana. Deal 3 damage to the opposing creature. Send the creature that flooped to your discard pile.
+- `Creature_WeakVampMarshmallow` Weak Candyr — Creature, Halloween, rarity 1, Cotton, mana 3, attack 2, defense 20, floop 2 mana. Deal 3 damage to the opposing creature. Send the creature that flooped to your discard pile.
+- `Creature_WellDressedWolf` Well Dressed Wolf — Creature, Standard, rarity 3, Cotton, mana 3, attack 10, defense 18, floop 2 mana. Heal all Damage from this creature. This creature must be wounded.
+- `Creature_WhiteNinja` White Ninja — Creature, Standard, rarity 2, Universal, mana 2, attack 7, defense 3, floop 2 mana. Deal 3 damage to the opposing creature if present. Heal this creature for 2 HP. Requires an opposing creature in this lane or a wound on this creature.
+- `Creature_WizardElf` Psionic Architect — Creature, Standard, rarity 3, Plains, mana 3, attack 17, defense 8, floop 2 mana. Choose a spell card in your discard pile and return it to your hand. Requires room in hand.
+- `Creature_XMAS_BlueSlimey` Blue Slimey — Creature, Christmas, rarity 5, Plains, mana 2, attack 7, defense 14, floop 1 mana. Heal adjacent creatures by this creature's current DEF and discard. Requires a wounded neighbor.
+- `Creature_XMAS_ChadBear` Chad Bear — Creature, Christmas, rarity 2, Universal, mana 2, attack 5, defense 15, floop 2 mana. +2 Attack.
+- `Creature_XMAS_CowPurple` Purple Cow — Creature, Christmas, rarity 5, Corn, mana 3, attack 5, defense 20, floop 2 mana. Damage all enemy creatures for 5 and take 5 damage in return. Requires an opposing creature.
+- `Creature_XMAS_Paladim` Paladim — Creature, Christmas, rarity 5, Universal, mana 5, attack 5, defense 20, floop 1 mana. Deal 5 Damage to creature in opposing lane and damage this creature for 2 Damage.
+- `Creature_XMAS_PeaSoupBarfer` Pea Soup Barfer — Creature, Christmas, rarity 5, Swamp, mana 3, attack 10, defense 15, floop 2 mana. Lower the Defense of adjacent creatures by 2 and increase the Attack of this creature by 5. Requires a friendly neighbor. Apply the attack bonus once.
+- `Creature_XMAS_RainbowGnome` Rainbow Gnome — Creature, Christmas, rarity 5, Universal, mana 4, attack 7, defense 14, floop 3 mana. Divide the opposing creature's attack by 2, rounding down. Take that much attack from it, or take one if its attack is exactly 1. Increase this creature's attack and reduce its defense by that amount. Requires a target with positive attack.
+- `Creature_XMAS_SnowBall` Snowball — Creature, Christmas, rarity 5, Cotton, mana 2, attack 5, defense 15, floop 2 mana. The first floop gives this creature +1 attack. Each successive floop grants one more attack than the last while it stays in play.
+- `Creature_XMAS_SnowCorn` Rural Earl — Creature, Christmas, rarity 1, Corn, mana 2, attack 13, defense 8, floop 2 mana. Gain +2 attack for each adjacent friendly lane without a creature. Buildings do not count. Requires at least one such lane.
+- `Creature_XMAS_SnowCotton` Dr Phillip Flufferson — Creature, Christmas, rarity 1, Cotton, mana 2, attack 5, defense 16, floop 2 mana. Heal adjacent creatures 5 points. Requires a wounded neighbor.
+- `Creature_XMAS_SnowMan` Snowy McSnow — Creature, Christmas, rarity 1, Universal, mana 1, attack 3, defense 10, floop 10 mana. +1 Attack.
+- `Creature_XMAS_SnowPlain` Spectre Hector — Creature, Christmas, rarity 1, Plains, mana 2, attack 7, defense 14, floop 3 mana. Return the creature opposite this creature to its owner's hand. If the hand is full, send the card to the opponent's discard pile.
+- `Creature_XMAS_SnowSand` Sandbacho — Creature, Christmas, rarity 1, Sand, mana 2, attack 11, defense 10, floop 3 mana. This creature and adjacent creatures gain +4 Defense.
+- `Creature_XMAS_SnowSwamp` Pete Bog — Creature, Christmas, rarity 1, Swamp, mana 2, attack 9, defense 12, floop 2 mana. Deal 3 Damage for each card in your hand to the creature in the opposing lane.
+- `Creature_XMAS_WallOfChocolate` Wall of Chocolate — Creature, Christmas, rarity 5, Sand, mana 3, attack 5, defense 20, floop 2 mana. Heal each of your other creatures for 5 HP. Deal 2 damage to this creature.
+- `Spell_BananaButt` Banana Butt — Spell, Standard, rarity 4, Universal, mana 1. Send one of your creature cards from play directly to your discard pile and draw 1 card. Requires a card in your deck.
+- `Spell_BlackholePendant` BlackHole Pendant — Spell, FionnaCake, rarity 5, Universal, mana 4. Multiply every creature's defense by 0.5, rounding down. Existing wounds remain.
+- `Spell_BloodTransfusion` Blood Transfusion — Spell, Standard, rarity 3, Universal, mana 3. Heal your hero for 5 HP and deal 5 damage to the opposing hero.
+- `Spell_BoneWand` Bone Wand — Spell, Standard, rarity 2, Universal, mana 2. Choose a friendly Swamp creature facing an opposing creature. Your creature deals damage to that enemy equal to your creature's attack.
+- `Spell_BriefPower` Brief Power — Spell, Standard, rarity 5, Universal, mana 1. Your remaining cards cost 1 less mana this turn. Requires at least 2 cards in hand, including this spell.
+- `Spell_BubblegumButt` Bubblegum Butt — Spell, Standard, rarity 3, Universal, mana 5. Draw 3 cards, while your deck has cards and your hand has room. Requires fewer than 7 cards in hand to cast.
+- `Spell_CerebralBloodstorm` Cerebral Bloodstorm — Spell, Standard, rarity 1, Universal, mana 3. Choose an opposing creature and deal Damage equal to its own Attack.
+- `Spell_ClairvoyantDaggerStorm` Clairvoyant Daggerstorm — Spell, Standard, rarity 3, Universal, mana 3. Choose a wounded opposing creature. Deal damage to it equal to its missing HP.
+- `Spell_CornScepter` Corn Scepter — Spell, Standard, rarity 2, Universal, mana 2. Choose a friendly Corn creature facing an opposing creature. Your creature deals damage to that enemy equal to your creature's attack.
+- `Spell_CoughSyrup` Cough Syrup — Spell, Standard, rarity 3, Universal, mana 2. Choose one of your creatures and switch its Attack and Defense values. Stat multipliers apply to the new values. Existing wounds remain.
+- `Spell_CrystalBall` Crystal Ball — Spell, Standard, rarity 1, Universal, mana 2. Shuffle your remaining hand into your deck and draw up to 5 cards.
+- `Spell_DarkPortal` Dark Portal — Spell, Standard, rarity 3, Universal, mana 2. Move an opposing building to another opposing lane without a building. The destination may contain a creature.
+- `Spell_DoorOfStrength` Door of Strength — Spell, Standard, rarity 5, Universal, mana 3. Your opponent cannot play creature cards on their next turn.
+- `Spell_ElfBlood` Woad Blood — Spell, Standard, rarity 1, Universal, mana 3. Choose one of your wounded creatures and fully heal it.
+- `Spell_FallingStar` Falling Star — Spell, Standard, rarity 3, Universal, mana 1. Reduce the opposing hero's mana for their next turn by 2.
+- `Spell_FieldOfNightmares` Field of Nightmares — Spell, Standard, rarity 3, Universal, mana 1. Choose an opposing creature whose floop is not already blocked. It cannot floop on its owner's next turn.
+- `Spell_FountainOfForgiveness` Fountain of Forgiveness — Spell, Standard, rarity 2, Universal, mana 2. Choose one of your damaged creatures and heal it equal to its own Attack.
+- `Spell_GrapeButt` Grape Butt — Spell, Standard, rarity 2, Universal, mana 1. Send one of your building cards from play directly to your discard pile and draw 1 card. Requires a card in your deck.
+- `Spell_HotDogRain` Hot Dog Rain — Spell, Standard, rarity 3, Universal, mana 1. Your opponent cannot play building cards on their next turn.
+- `Spell_IncredibleEgg` Incredible Egg — Spell, Standard, rarity 5, Universal, mana 2. Add a random creature card from your deck to your hand. The card also stays in the deck and can be drawn later.
+- `Spell_KungFuPower` Kung Fu Power — Spell, Standard, rarity 5, Universal, mana 5. Deal damage equal to remaining HP to each opposing creature of rarity 4 or higher.
+- `Spell_LonelyHearts` Lonely Hearts — Spell, FionnaCake, rarity 5, Universal, mana 1. If your opponent has exactly one creature, deal damage equal to its remaining HP to it.
+- `Spell_Migraine` Wizard Migraine — Spell, Standard, rarity 1, Universal, mana 1. Discard your hand and gain 4 Magic Points.
+- `Spell_PieStorm` Pie Storm — Spell, Standard, rarity 4, Universal, mana 3. Requires one of your creatures to be wounded. Fully heal every creature on both sides.
+- `Spell_PortalToNowhere` Portal to Nowhere — Spell, Standard, rarity 4, Universal, mana 1. Return all your creatures to your hand. Once your hand contains 7 cards, send the remaining creatures to your discard pile.
+- `Spell_PsychicTempest` Psychic Tempest — Spell, Standard, rarity 2, Universal, mana 1. Your opponent cannot play spell cards on their next turn.
+- `Spell_PumaClaw` Puma Claw — Spell, Standard, rarity 2, Universal, mana 2. Choose a friendly Plains creature facing an opposing creature. Your creature deals damage to that enemy equal to your creature's attack.
+- `Spell_ScrollOfBadBreath` Scroll of Bad Breath — Spell, Standard, rarity 5, Universal, mana 1. Choose a spell card in your discard pile and return it to your hand. Requires a spell already in your discard pile to cast. You can choose the spell you just cast.
+- `Spell_ScrollOfFreshBreath` Scroll of Fresh Breath — Spell, Standard, rarity 2, Universal, mana 1. Choose a building card in your discard pile and return it to your hand.
+- `Spell_SkullJuice` Skull Juice — Spell, Standard, rarity 5, Universal, mana 3. Choose one of your opponent's creatures and switch its Attack and Defense values. Stat multipliers apply to the new values. Existing wounds remain.
+- `Spell_SnakeEyeRing` Snake Eye Ring — Spell, Standard, rarity 4, Universal, mana 3. Draw one card per friendly lane without a creature, even if the lane contains a building. Requires at least one such lane, a card in your deck and room in your hand.
+- `Spell_SpiritTorch` Spirit Torch — Spell, Standard, rarity 4, Universal, mana 3. Choose an opposing lane. No building or creature may be summoned on this lane next turn.
+- `Spell_StrawberryButt` Strawberry Butt — Spell, Standard, rarity 1, Universal, mana 3. Draw 2 cards, while your deck has cards and your hand has room. Requires fewer than 7 cards in hand to cast.
+- `Spell_SubliminalStrength` Subliminal Strength — Spell, Standard, rarity 5, Universal, mana 5. Deal damage equal to remaining HP to each opposing creature of rarity 3 or lower.
+- `Spell_SuperHug` Super Hug — Spell, Standard, rarity 2, Universal, mana 2. Choose a friendly Cotton creature facing an opposing creature. Your creature deals damage to that enemy equal to your creature's attack.
+- `Spell_TaxReduction` Tax Reduction — Spell, Standard, rarity 5, Universal, mana 1. Set the base floop cost of your creatures to 0 mana for the rest of the turn. Clear your global floop cost modifier and keep any lane-specific modifier.
+- `Spell_Teleport` Teleport — Spell, Standard, rarity 1, Universal, mana 1. Choose one of your creatures and return it to your hand.
+- `Spell_ThroneOfDoom` Throne of Doom — Spell, Standard, rarity 4, Universal, mana 1. Send one of your creature cards from play directly to your discard pile and gain 4 mana.
+- `Spell_ThroneOfGloom` Throne of Gloom — Spell, Standard, rarity 4, Universal, mana 1. Send one of your building cards from play directly to your discard pile and gain 4 mana.
+- `Spell_TomeOfAnkhs` Tome of Ankhs — Spell, Standard, rarity 2, Universal, mana 2. Choose a friendly Sand creature facing an opposing creature. The spell deals damage to that enemy equal to your creature's attack.
+- `Spell_UFOabduction` UFO Abduction — Spell, Standard, rarity 1, Universal, mana 1. Move one of your buildings to another friendly lane without a building. The destination may contain a creature.
+- `Spell_UltimateMagicHands` Ultimate Magic Hands — Spell, Standard, rarity 5, Universal, mana 3. Choose an opposing creature and return it to its owner's hand. If the opponent already holds 7 or more cards, send it to their discard pile.
+- `Spell_UnemptyCoffin` Unempty Coffin — Spell, Standard, rarity 4, Universal, mana 2. Choose a creature card in your discard pile and return it to your hand.
+- `Spell_Volcano` Volcano — Spell, Standard, rarity 1, Universal, mana 4. Choose an opposing lane with a creature or building. Send all creatures and buildings in that lane and the friendly lane opposite it directly to their owners' discard piles. Skip on-death abilities.
+- `Spell_WitchWay` Witch Way — Spell, Standard, rarity 3, Universal, mana 1. Gain one mana for each distinct landscape type on both sides of the field, counting each type once.
+- `Spell_WizardRawk` Wizard Rawk — Spell, Standard, rarity 4, Universal, mana 3. Choose a wounded friendly creature. Replace its attack modifier so that its attack before multipliers equals its missing HP.
+- `Spell_XMAS_MagicHotDogPie` Magic Hot Dog Pie — Spell, Christmas, rarity 5, Universal, mana 5. Heal your hero for 10 HP and deal 10 damage to the opposing hero.
+- `Spell_ZazosMagicSeeds` ZaZo's Magic Seeds — Spell, Standard, rarity 5, Universal, mana 1. Gain 1 Magic Point for each of your creatures on the field.
+
+## Heroes
+
+- `Leader_Ash` Ash — Choose a card in your discard pile and return it to your hand. Requires room in hand. Cooldown 4 turns.
+- `Leader_BMO` BMO — Gain 2 mana this turn. Cooldown 3 turns.
+- `Leader_BMOSweater` BMO — Draw up to 3 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 5 turns.
+- `Leader_BananaGuard` Banana Guard — Give all your creatures +3 defense. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_BerryBones` BerryBones — Choose a card in your discard pile and return it to your hand. Requires room in hand. Cooldown 4 turns.
+- `Leader_Blumps` Blumps — Give all your creatures +3 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_BoneChill` BoneChill — Gain 3 mana this turn. Cooldown 3 turns.
+- `Leader_Cake` Cake — Gain 3 mana this turn. Cooldown 3 turns.
+- `Leader_CinnamonBun` Cinnamon Bun — Give all your Cotton creatures +3 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_DonutGoon` Donut Goon — Give all your creatures +5 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_DrDonut` Dr. Donut — Choose a creature card in your discard pile and return it to your hand. Requires room in hand. Cooldown 5 turns.
+- `Leader_Earl` Earl Of Lemongrab — Your creature cards cost 1 less mana this turn. Requires a creature card in hand. Cooldown 3 turns.
+- `Leader_ElFisto` El Fisto — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_ElFistoA` El Fisto — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_ElFistoB` El Fisto — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_Finn` Finn — Gain 2 mana this turn. Cooldown 5 turns.
+- `Leader_FinnDoctor` Doctor Finn — Your spell cards cost 1 less mana this turn. Requires a spell card in hand. Cooldown 3 turns.
+- `Leader_FinnPajama` Pajama Finn — Give all your Universal creatures +5 defense. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_FinnSweater` Finn — Give all your Universal creatures +5 attack. Requires at least one matching creature in play. Cooldown 5 turns.
+- `Leader_Fionna` Fionna — Your creature cards cost 1 less mana this turn. Requires a creature card in hand. Cooldown 3 turns.
+- `Leader_FlamePrincess` Flame Princess — Draw up to 2 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 4 turns.
+- `Leader_Gunter` Gunter — Choose a spell card in your discard pile and return it to your hand. Requires room in hand. Cooldown 3 turns.
+- `Leader_Gunter_FC` Gunter — Choose a spell card in your discard pile and return it to your hand. Requires room in hand. Cooldown 3 turns.
+- `Leader_Hunson` Hunson Abadeer — Your cards cost 1 less mana this turn. Requires at least 2 cards in hand. Cooldown 4 turns.
+- `Leader_IceKing` Ice King — Return all opposing buildings to their owner's hand. Once the hand is full, discard the remaining buildings. Cooldown 4 turns.
+- `Leader_IceKingSweater` Ice King — Fully heal all your wounded Swamp creatures. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_IceQueen` Ice Queen — Give all your creatures +4 defense. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_Jake` Jake — Give all your Corn creatures +3 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_JakeGhost` Ghost Jake — Give all your Plains creatures +5 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_JakeSweater` Jake — Your spell cards cost 2 less mana this turn. Requires a spell card in hand. Cooldown 4 turns.
+- `Leader_LadyRainicorn` Lady Rainicorn — Choose one of your wounded creatures and fully heal it. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_LordMonochromicorn` Lord Monochromicorn — Discard every opposing building. Your opponent cannot play spell cards on their next turn. Requires an opposing building in play or a spell card in the opponent's hand. Cooldown 3 turns.
+- `Leader_Lumpy` Lumpy Space Princess — Fully heal all your wounded Plains creatures. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_LumpyMimic` Lumpy Mimic — Gain 2 mana this turn. Cooldown 3 turns.
+- `Leader_LumpyPrince` Lumpy Space Prince — Your spell cards cost 2 less mana this turn. Requires a spell card in hand. Cooldown 3 turns.
+- `Leader_LumpySweater` Lumpy Space Princess — Gain 3 mana this turn. Cooldown 5 turns.
+- `Leader_MagicMan` Magic Man — Gain 1 mana this turn. Cooldown 2 turns.
+- `Leader_Marceline` Marceline — Give all your creatures +2 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_MarshallLee` Marshall Lee — Give all your creatures +3 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_PeppermintButler` Peppermint Butler — Choose a building card in your discard pile and return it to your hand. Requires room in hand. Cooldown 2 turns.
+- `Leader_PrinceGumBall` Prince Gumball — This turn your Cotton creature cards cost 2 less mana and your other creature cards cost 1 less. Requires a creature card in hand. Cooldown 3 turns.
+- `Leader_PrincessBubblegum` Princess Bubblegum — Fully heal all your wounded creatures. Requires at least one matching creature in play. Cooldown 4 turns.
+- `Leader_PrincessBubblegumSweater` Princess Bubblegum — Give all your creatures +4 attack. Requires at least one matching creature in play. Cooldown 5 turns.
+- `Leader_PrincessCookie` Princess Cookie — Give all your Swamp creatures +4 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_Ricardio` Ricardio Heart Guy — Draw up to 1 from your deck. Requires a card in your deck and fewer than 7 cards in hand. Cooldown 3 turns.
+- `Leader_Slumpy` Slumpy — Your creature cards cost 1 less mana this turn. Requires a creature card in hand. Cooldown 3 turns.
+- `Leader_SnowBerry` Snowberry — Fully heal all your wounded creatures. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_SnowFist` SnowFist — Your spell cards cost 2 less mana this turn. Requires a spell card in hand. Cooldown 3 turns.
+- `Leader_SnowNut` SnowNut — Give all your creatures +3 defense. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_Sprinkles` Sprinkles — Gain 2 mana this turn. Cooldown 5 turns.
+- `Leader_SuperAsh` Ash — Gain 3 mana this turn. Cooldown 2 turns.
+- `Leader_SuperBMO` BMO — Gain 3 mana this turn. Cooldown 2 turns.
+- `Leader_SuperBananaGuard` Banana Guard — Give all your creatures +3 defense. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperCinnamonBun` Cinnamon Bun — Give all your creatures +4 attack. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperDrDonut` Dr. Donut — Choose a creature card in your discard pile and return it to your hand. Requires room in hand. Cooldown 1 turn.
+- `Leader_SuperEarl` Earl Of Lemongrab — Your creature cards cost 1 less mana this turn. Requires a creature card in hand. Cooldown 1 turn.
+- `Leader_SuperFinnDoctor` Doctor Finn — Choose a spell card in your discard pile and return it to your hand. Requires room in hand. Cooldown 2 turns.
+- `Leader_SuperFinnPajama` Pajama Finn — Give all your Universal creatures +6 defense. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperFlamePrincess` Flame Princess — Give all your Sand creatures +5 attack. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperGunter` Gunter — Give all your creatures +2 defense. Requires at least one matching creature in play. Cooldown 1 turn.
+- `Leader_SuperHunson` Hunson Abadeer — Give all your Plains creatures +8 attack. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperIceKing` Ice King — Give all your creatures +2 attack. Requires at least one matching creature in play. Cooldown 1 turn.
+- `Leader_SuperJake` Jake — Give all your Corn creatures +5 attack. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperLadyRainicorn` Lady Rainicorn — Fully heal all your wounded creatures. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_SuperLumpy` Lumpy Space Princess — Fully heal all your wounded Plains creatures. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperMagicMan` Magic Man — Return all opposing buildings to their owner's hand. Once the hand is full, discard the remaining buildings. Cooldown 1 turn.
+- `Leader_SuperMarceline` Marceline — Give all your creatures +2 attack. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperPeppermintButler` Peppermint Butler — Give all your Universal creatures +5 attack. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperPrincessBubblegum` Princess Bubblegum — Fully heal all your wounded creatures. Requires at least one matching creature in play. Cooldown 2 turns.
+- `Leader_SuperPrincessCookie` Princess Cookie — Give all your Cotton creatures +8 attack. Requires at least one matching creature in play. Cooldown 3 turns.
+- `Leader_TreasureCat` Treasure Cat — Your cards cost 1 less mana this turn. Requires at least 2 cards in hand. Cooldown 3 turns.
+- `Leader_VDayIceKing` Date-Night Ice King — Give all your Cotton creatures +1 attack and +2 defense. Requires at least one matching creature in play. Cooldown 3 turns.

@@ -1,0 +1,27 @@
+name: Check arena and archived results
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.9.18"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: uv sync --locked
+      - run: uv run --locked python -m unittest discover -s tests
+      - run: node --test tests/on_air.test.cjs
+      - run: uv run --locked python scripts/check_release.py
