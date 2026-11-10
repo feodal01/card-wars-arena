@@ -18,9 +18,17 @@ The games in a row share one match session and an opportunity to adapt between g
 
 ## Baselines and historical fixtures
 
-- [100 HP random baseline](2026-11-10-random-baseline/trace.html) ran on a freshly prepared engine with seed 42. Uniform random lost 2–3 to play-first. [Exact configuration](2026-11-10-random-baseline/match.toml)
-- Health pilots used the same seed and 40-card pool at [125 HP](2026-11-06-hp-pilot/125/trace.html) and [260 HP](2026-11-06-hp-pilot/260/trace.html). The archived TOMLs explicitly set the historical pool and placement defaults.
-- The historical [Elo board](leaderboard.html) includes the [rated demo fixture](2026-11-06-demo/matches/match-0001/trace.html). The [second fixture](2026-11-06-demo/matches/match-0002/trace.html) was experimental. Both schedule versions are preserved.
-- The [Unity exhibition](2026-11-06-exhibition/trace.html), [landscape-placement run](2026-11-05-landscape-turns/trace.html) and [earlier setup run](2026-11-05-random-match/trace.html) document engine development. One diagnostic in the earlier setup trace uses a relative path in this public copy. Its gameplay events are unchanged.
+| Format | Player 1 | Player 2 | Score | Replay |
+|---|---|---|:---:|---|
+| 100 HP baseline, seed 42 | Uniform random | Play-first random | 2–3 | [Five games](2026-11-10-random-baseline/trace.html) |
+| 125 HP pilot, 40-card pool | Uniform random | Play-first random | 4–1 | [Five games](2026-11-06-hp-pilot/125/trace.html) |
+| 260 HP pilot, same seed and pool | Uniform random | Play-first random | 3–2 | [Five games](2026-11-06-hp-pilot/260/trace.html) |
+| Rated demo | Uniform random | Play-first random | 2–3 | [Five games](2026-11-06-demo/matches/match-0001/trace.html) |
+| Experimental demo | Play-first random | Uniform random | 4–1 | [Five games](2026-11-06-demo/matches/match-0002/trace.html) |
+| Unity exhibition | Uniform random | Play-first random | 2–3 | [Five games](2026-11-06-exhibition/trace.html) |
+| Landscape-placement trial | Random A | Random B | 4–1 | [Five games](2026-11-05-landscape-turns/trace.html) |
+| Early setup trial | Random A | Random B | 2–3 | [Five games](2026-11-05-random-match/trace.html) |
+
+The [100 HP baseline configuration](2026-11-10-random-baseline/match.toml) ran on a freshly prepared engine. The historical [Elo board](leaderboard.html) includes the rated demo. In the early setup trace, one diagnostic uses a relative path in the public copy.
 
 From the repository root, run `uv run --locked python scripts/check_release.py` to verify every archived score against its trace. For an article, link to a match’s Markdown page or result file at a specific commit. Event sequence numbers in the JSONL identify individual decisions.

@@ -1,94 +1,51 @@
 # Card Wars Arena
 
-Card Wars Arena lets a human, two model agents, or game bots play the same five-game card match in the recovered Card Wars engine. Each player can rebuild their deck and change hero between games. The trace records what each player could see, which moves were legal, what they chose, and how Unity resolved combat.
+In *Adventure Time*, Jake teaches Finn to play Card Wars. In the mobile game, the board has four lanes. Put a creature opposite an enemy and it can defend your hero. Leave that lane open and the next attack can hit your hero directly. Some creatures can also “floop” — spend mana to activate an ability, such as returning a blocker to its owner's hand before the attack. [Finn and Jake play Card Wars · Cartoon Network](https://www.youtube.com/watch?v=jJOmTS9zeXI)
 
-**Start with the human match.** A human beat Terra 6.1 medium in Codex 4–1. The match page lists the five starting players, final HP, heroes and video chapters. [Explore the five games in your browser](https://feodal01.github.io/card-wars-arena/) · [Human vs. Terra](results/2026-11-10-human-terra/README.md) · [All results](results/README.md) · [Recordings and deck workshop](materials/README.md)
+Here, language models play that mobile game against each other. They pick a hero, build a deck and make every move. A match lasts **five games against the same opponent**. Both players remember what happened and can change all 20 cards before the next game. Each sees the cards their opponent reveals during play, so a loss can teach them what to bring next. [Read the rules both agents received for Terra vs. Astra](results/2026-11-08-terra-astra-medium/agent-rules.md)
 
-## Explore a match after cloning
+## Model vs. model
 
-Download an archived `trace.html` and open it in a browser. Select a game, turn or card play to inspect both hands, the board before and after, and the wheel outcome. Each HTML viewer works offline. GitHub’s file page also has a download button. [Interactive human match](results/2026-11-10-human-terra/trace.html) · [Trace guide](docs/trace.md)
+Each score lists game wins in player order. Terra and Astra played through Codex, and Opus and Sonnet through Claude Code. Both sides used medium reasoning effort in the four Terra matches.
 
-To verify the results or regenerate a viewer, use Python 3.11 or later and `uv`. Run these commands from the repository root. These operations work without Unity or model accounts.
+| Player 1 | Player 2 | Score | What happened |
+|---|---|:---:|---|
+| Terra 6.1 | Astra 6 | **4–1** | Astra won the opener without taking damage. Terra swapped two cards and won the next four. [Game-by-game review](results/2026-11-08-terra-astra-medium/review.md) · [Replay](https://feodal01.github.io/card-wars-arena/results/2026-11-08-terra-astra-medium/) |
+| Terra 6.1 | Opus 5.5 | **4–1** | Terra kept its deck throughout. Opus replaced 16 cards and switched to Prince Gumball for its game-five win. [Game-by-game review](results/2026-11-08-terra-opus-medium/review.md) · [Replay](https://feodal01.github.io/card-wars-arena/results/2026-11-08-terra-opus-medium/) |
+| Terra 6.1 | Sonnet 5.5 | **4–1** | With corrected English ability descriptions, Sonnet took the fifth game. [Rematch](results/2026-11-08-terra-sonnet-en-rematch/review.md) · [Replay](https://feodal01.github.io/card-wars-arena/results/2026-11-08-terra-sonnet-en-rematch/) |
+| Terra 6.1 | Sonnet 5.5 | **5–0** | Their first meeting used a catalog that misdescribed Princess Cookie's enhanced ability. [First match](results/2026-11-08-terra-sonnet-medium/review.md) · [Replay](https://feodal01.github.io/card-wars-arena/results/2026-11-08-terra-sonnet-medium/) |
+| Astra 6 | Opus 5.5 | **3–2** | An earlier format gave heroes 25 HP and offered 40 cards. Astra won the first three games. Opus changed heroes and won the last two. [Early match](results/2026-11-06-astra-claude/review.md) · [Replay](https://feodal01.github.io/card-wars-arena/results/2026-11-06-astra-claude/) |
 
-```sh
-uv sync --locked
-uv run --locked python scripts/check_release.py
-uv run --locked cardwars verify results/2026-11-10-human-terra/trace.jsonl
-uv run --locked cardwars trace results/2026-11-10-human-terra/trace.jsonl --output build/human-match.html
-```
+[![Game three of Terra vs. Astra. The score is tied 1–1 and Terra is choosing how to defend its last 10 HP.](materials/recordings/2026-11-08-terra-astra-medium/game-three.jpg)](https://feodal01.github.io/card-wars-arena/results/2026-11-08-terra-astra-medium/)
 
-Videos and the illustrated workshop use Git LFS. After installing Git LFS, run `git lfs install --local` and `git lfs pull` in the clone. To fetch only one recording, see the [media index](materials/README.md). The JSON scores, raw traces, Markdown reviews and HTML trace viewers are ordinary Git files.
+**Terra vs. Astra, game three.** At 10 HP, Terra put Temporal Wisp opposite Astra’s 16-attack Gazer. Two turns later, Terra sent Poultrygeist through an open lane to win. Select game three in the replay to inspect both hands and follow the decisions. [Open the replay](https://feodal01.github.io/card-wars-arena/results/2026-11-08-terra-astra-medium/) · [Full broadcast · 17:35](materials/recordings/2026-11-08-terra-astra-medium/broadcast.mp4)
 
-## Prepare the live game
+## The human, the game AI and the baseline
 
-The tested host is macOS with Unity Editor **2022.3.62f3**. Live play needs a compatible recovered Card Wars Unity project with the game scenes, original scripts, English localization, art and Blueprint tables. The public checkout provides the arena bridge. The input to this setup is a working Unity project ported to that editor version. APKs, phone saves and the installed Mac app are different inputs.
+| Player 1 | Player 2 | Score | What happened |
+|---|---|:---:|---|
+| Human | Terra 6.1 | **4–1** | The human kept BMO for all five games. Terra picked BMO for game three and took its only win. [Scorecard and video chapters](results/2026-11-10-human-terra/README.md) · [Interactive replay](https://feodal01.github.io/card-wars-arena/) |
+| Terra 6.1 | Original campaign AI | **5–0** | The mobile game's own bot received Terra's hero and the same 20 cards each game. Each deck was shuffled separately. [Mirror match](results/2026-11-09-terra-campaign-mirror/review.md) · [Replay](https://feodal01.github.io/card-wars-arena/results/2026-11-09-terra-campaign-mirror/) |
+| Uniform random bot | Play-first random bot | **2–3** | Two scripted opponents played the standard 100 HP format. [Baseline replay](https://feodal01.github.io/card-wars-arena/results/2026-11-10-random-baseline/) |
 
-```sh
-export CARDWARS_UNITY_PROJECT="$PWD/local/arena-unity"
-uv run --locked cardwars prepare-engine /path/to/recovered-card-wars "$CARDWARS_UNITY_PROJECT"
-uv run --locked cardwars catalog --project "$CARDWARS_UNITY_PROJECT" --check-sources --output build/catalog.md
-```
+The archive contains **15 matches and 75 games**, including the early rules experiments and bot trials. Each row above describes a single five-game series. [All results and traces](results/README.md) · [Recordings and illustrated deck workshop](materials/README.md)
 
-Setup copies `Assets`, `Packages` and `ProjectSettings` to a **new directory**, gives the copy its own standalone application ID, installs the bridge and checks 222 effect sources. Allow Unity to finish its first asset import before running a timed match. You can open and close the prepared project in Unity, or use the batch command in the [engine setup guide](docs/engine.md). The default editor path is the standard macOS Unity Hub path. Override `[engine].executable` in the TOML for another installation.
+## What the players know
 
-## Run a match
+Under the standard rules, both players choose from the same **258 cards and 72 hero entries** and start with **100 HP**. They can pick the same hero or even the same deck. After the opening draw, each places four landscapes. The first player gets to play cards first, and the second gets the first attack. The game engine resolves combat with a random stop on its battle wheel.
 
-A standard match comprises five games, including games four and five after a player has secured the majority. Each player selects one of 72 hero entries and 20 distinct cards from 258 eligible cards. Heroes start at 100 HP. The first player is drawn separately each game. Players place four landscapes each, then the first player plays cards. The second player makes the first attack. Unity resolves the wheel using a random stop. Deck selection has a ten-minute clock and each turn has a five-minute clock. [Full rules](cardwars/arena/rules.md) · [Card and hero catalog](docs/catalog.md)
-
-| Mode | Command |
-|---|---|
-| Run the headless random baseline, seed 42 | `uv run --locked cardwars match results/2026-11-10-random-baseline/match.toml` |
-| Watch uniform random vs. play-first | `uv run --locked cardwars match configs/arena100.toml --players random random-play-first --seed 42` |
-| Agent vs. agent through two harnesses | `uv run --locked cardwars match configs/arena100.toml --players terra sonnet` |
-| Recreate the Terra vs. Astra medium setup | `uv run --locked cardwars match results/2026-11-08-terra-astra-medium/match.toml --seed 8895705922137395424` |
-| Agent vs. random | `uv run --locked cardwars match configs/arena100.toml --players terra random` |
-| Agent vs. the original campaign AI | `uv run --locked cardwars match configs/arena100.toml --players terra campaign` |
-
-The campaign AI occupies the second seat and receives the first player’s hero and all 20 cards. The decks are shuffled independently. The native campaign decision method plays the bot’s turns. [Mirror-match evidence](results/2026-11-09-terra-campaign-mirror/review.md)
-
-For an agent, install and sign in to its CLI and select a model your account can use. The TOML defines the harness command, model and reasoning effort. The historical Terra runs used the Codex executable supplied with the desktop app. If installed at the same location, select it with `export PATH="/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin:$PATH"`. Check the connection with `uv run --locked cardwars tools check codex --project "$CARDWARS_UNITY_PROJECT"`. Substitute `claude`, `opencode` or `prime` for the other adapters. Each agent keeps its own session for the match and receives four seat-bound MCP tools. [Harness configuration and custom commands](docs/players.md) · [Tool contract](docs/tools.md)
-
-The match command prints a new run directory. Supply `--output runs/my-match` for a named run. Set `watch = false` for silent headless play or `record = true` for native gameplay capture. For broadcast graphics and MP4 export, install Node.js 22+, Google Chrome and the Python video extra with `uv sync --locked --extra video`. [Spectator and export guide](docs/spectator.md)
+Agents receive the rules and a catalog that explains each card and hero ability. During play they see their own hand, the public board and the legal moves for their turn. The spectator replay lets you inspect both hands. [Rules supplied to both players](results/2026-11-08-terra-astra-medium/agent-rules.md) · [Card and hero catalog](docs/catalog.md)
 
 ## Play against an agent
+
+With the game prepared on your Mac, start a private browser table with the command below. Pick a hero and 20 cards, choose where to play each card, and revise your deck between games.
 
 ```sh
 uv run --locked --extra video cardwars duel configs/arena100.toml --opponent terra
 ```
 
-1. Open the private browser table printed by the launcher. Choose a hero and 20 cards there, or import a JSON deck from the [offline workshop](materials/deck-workshop.html). The workshop displays the land color, cost and full ability on each card. It also distinguishes hero variants and cooldowns.
-2. Leave **Record match video** checked for a recording with game audio. Click **Start match** when ready. Offline preparation has no clock.
-3. Place your four landscapes when prompted. Select a card in your hand to see legal lanes and costs. The board aligns opposing lanes vertically. The Actions panel offers available floops, hero powers, spell targets and ending the turn with unspent mana. The opponent’s hand stays private.
-4. After each game, keep or change your hero and deck and click **Lock deck for game N**. After game five the table links the trace and, when encoding finishes, the MP4. Keep the launcher running through export. Refreshing the private URL reconnects to your current seat.
-
-Use `--opponent random-play-first` to practice without a model account. The video exporter uses the field and audio captured during play plus event timestamps from the trace to shorten thinking pauses. A trace by itself supports the interactive turn viewer.
-
-## Run a league
-
-```sh
-uv run --locked cardwars tournament plan configs/league100.toml
-uv run --locked cardwars tournament run configs/league100.toml --output runs/my-league --limit 1
-uv run --locked cardwars tournament board configs/league100.toml --output runs/my-league
-```
-
-The plan can be inspected without installing the engine. The supplied league schedules 20 five-game matches per pair among three entrants. Running the same league directory continues its schedule. Each verified match supplies one majority result to the Bradley–Terry rating on the Elo scale. The results index also links the earlier sequential Elo demonstration. [Scheduling and ratings](docs/rating.md)
-
-## Repository layout
-
-| Path | Contents |
-|---|---|
-| `cardwars/arena/`, `cardwars/engine/` | Match host, verified catalog, clocks, Unity preparation and native bridge |
-| `cardwars/tools/`, `cardwars/players/` | Private seat MCP server and relay, CLI harness adapters and random player |
-| `cardwars/human/` | Browser player table and offline deck workshop generator |
-| `cardwars/reports/`, `cardwars/tournament/` | Trace inspector, broadcast, recording, schedules and ratings |
-| `configs/`, `docs/` | Maintained arena and league configurations, rule and interface guides |
-| `results/` | Published evidence, configurations where available, reviews and offline viewers |
-| `materials/` | Recordings, deck workshop and media checksums |
-| `tests/`, `scripts/` | Regression tests and release verification |
-| `runs/`, `build/`, `local/` | Ignored local match workspaces, generated files and the operator’s engine |
-
-Run `uv run --locked python -m unittest discover -s tests` and `node --test tests/on_air.test.cjs` for the Python and browser-timing suites. Set `CARDWARS_UNITY_PROJECT` to include tests using the original card data. A seed fixes the host’s draw and player seeds. Repeating the seed-42 configuration produced the same starting seats but different native battles and a different series winner. A new agent session can also make different decisions. For an article or an exact decision, link to the archived match at a specific Git commit and include the trace event number.
+[Prepare your copy of the game](docs/engine.md) · [Launch a human, model or bot match](docs/running.md) · [Run a league](docs/running.md#run-a-league)
 
 ## License
 
-The arena software is available under the [MIT License](LICENSE). Card Wars characters, illustrations, logos and game audio belong to their respective owners.
+The arena software uses the [MIT License](LICENSE). Card Wars characters, illustrations, logos and game audio belong to their respective owners.

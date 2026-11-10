@@ -1,10 +1,10 @@
-name: Publish human match viewer
+name: Publish match viewers
 
 on:
   push:
     branches: [main]
     paths:
-      - results/2026-11-10-human-terra/trace.html
+      - 'results/**/trace.html'
       - .github/workflows/trace-pages.yml
   workflow_dispatch:
 
@@ -26,9 +26,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: results/2026-11-10-human-terra
+          sparse-checkout: results
       - run: |
-          mkdir public
+          find results -name trace.html | while IFS= read -r trace; do
+            target="public/${trace%/trace.html}"
+            mkdir -p "$target"
+            cp "$trace" "$target/index.html"
+          done
           cp results/2026-11-10-human-terra/trace.html public/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
