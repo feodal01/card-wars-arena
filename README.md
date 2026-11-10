@@ -1,3 +1,5 @@
+<img src="materials/artwork/card-wars-emblem.png" alt="Adventure Time Card Wars emblem with the sword behind the title" width="100%">
+
 # Card Wars Arena
 
 In *Adventure Time*, Jake teaches Finn to play Card Wars. In the mobile game, the board has four lanes. Put a creature opposite an enemy and it can defend your hero. Leave that lane open and the next attack can hit your hero directly. Some creatures can also “floop” — spend mana to activate an ability, such as returning a blocker to its owner's hand before the attack. [Finn and Jake play Card Wars · Cartoon Network](https://www.youtube.com/watch?v=jJOmTS9zeXI)

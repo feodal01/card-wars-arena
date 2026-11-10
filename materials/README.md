@@ -18,3 +18,5 @@ git lfs pull --include="materials/recordings/2026-11-10-human-terra/*"
 The [media manifest](manifest.json) lists each file’s size in bytes and SHA-256 digest. From the repository root, `uv run --locked python scripts/check_release.py --media` verifies the downloads against the archived matches.
 
 The illustrations, character names and original game audio are from Adventure Time Card Wars. The arena uses them in the workshop and recordings. The game’s Unity project and native asset archives are supplied separately by the operator.
+
+The README features the Adventure Time Card Wars sword emblem. [Artwork source · Wallpapers.com](https://wallpapers.com/png/adventure-time-card-wars-logo-7d1rdgz9ujzywiyr.html)
