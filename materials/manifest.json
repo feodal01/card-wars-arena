@@ -1,0 +1,30 @@
+{
+  "deck-workshop.html": {
+    "bytes": 45666099,
+    "sha256": "991ac5141d5490332f3b54dedc002c010bfb0bd663a86d8e0ddbe056e4c1cde5"
+  },
+  "recordings/2026-11-08-terra-astra-medium/broadcast.mp4": {
+    "bytes": 267120373,
+    "sha256": "5a72ecdafc2b138a22512a10a5d56624665563419096db79c0b1c2ae7d19f0eb"
+  },
+  "recordings/2026-11-08-terra-opus-medium/broadcast-preview.mp4": {
+    "bytes": 3470303,
+    "sha256": "7502d48ff06445253ca78b6b90a113f44014d8fe5c572c9116a988b7b46c277a"
+  },
+  "recordings/2026-11-08-terra-opus-medium/broadcast-replay.mp4": {
+    "bytes": 283437462,
+    "sha256": "d63f91de273af7efb7327f5fd9f8945bac8303bb1f7d496c9a9c9e6770c3d613"
+  },
+  "recordings/2026-11-08-terra-opus-medium/broadcast.mp4": {
+    "bytes": 141866372,
+    "sha256": "46ac3986c97540136824286d8713abab0fa0ffdee9036172f8eb242823052837"
+  },
+  "recordings/2026-11-09-terra-campaign-mirror/broadcast.mp4": {
+    "bytes": 261859433,
+    "sha256": "d056720ae61d387c520b955195958e4b95fe81da6eee9c51287f5a796883c31c"
+  },
+  "recordings/2026-11-10-human-terra/broadcast.mp4": {
+    "bytes": 235902322,
+    "sha256": "fe81f9e4c7ac0c56495a0d31a01001f2e6095a0674a868635c5008d9a9ab8151"
+  }
+}

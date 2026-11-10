@@ -1,0 +1,25 @@
+[engine]
+project = "${CARDWARS_UNITY_PROJECT}"
+
+[match]
+rules_version = "cardwars-campaign-mirror-v1"
+games = 5
+players = ["terra", "campaign"]
+pool = "no_obsidian"
+placement = "before_cards"
+health = 100
+watch = true
+record = true
+
+[harnesses.codex]
+adapter = "codex"
+command = ["codex", "exec", "--ignore-user-config", "--ignore-rules", "--skip-git-repo-check", "--ephemeral", "--json", "{arena}", "{options}", "--", "{prompt}"]
+
+[players.terra]
+harness = "codex"
+model = "gpt-6.1-terra"
+effort = "medium"
+
+
+[players.campaign]
+kind = "campaign"

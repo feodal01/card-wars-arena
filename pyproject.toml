@@ -1,0 +1,31 @@
+[project]
+name = "cardwars-arena"
+version = "0.1.0"
+description = "Card Wars match host, player tools, tournament and offline reports"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["mcp==1.30.0"]
+
+[project.optional-dependencies]
+video = ["imageio-ffmpeg==0.6.0"]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+cardwars = "cardwars.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["cardwars*"]
+
+[tool.setuptools.package-data]
+"cardwars.arena" = ["rules.md", "catalog_sources.json"]
+"cardwars.engine" = ["unity/*.cs", "unity/install.py"]
+"cardwars.reports" = ["*.html", "*.css", "*.js", "assets/*"]
+"cardwars.tournament" = ["*.html", "*.css", "*.js"]
+"cardwars.players" = ["*.mjs"]
+"cardwars.human" = ["*.js", "*.html", "*.css"]

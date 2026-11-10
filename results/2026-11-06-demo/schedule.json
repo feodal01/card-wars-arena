@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "seed": 2601106,
+  "repeats": 1,
+  "ruleset": "cardwars-v1-on-turn-40-20-bo5-hp25",
+  "participants": {
+    "random-a": {
+      "kind": "random",
+      "rating_id": "random-uniform-v1",
+      "model": null,
+      "definition": "ff40dfc9500ce8d74f9cc70ddb8719d46c113d201fe520458b3867d23105e810"
+    },
+    "random-b": {
+      "kind": "random",
+      "rating_id": "random-play-first-v1",
+      "model": null,
+      "definition": "186ead18b7959fe3b7e38f08eb5492954949574c2eee383ff4d1cc2d497fabc7"
+    }
+  },
+  "fixtures": [
+    {
+      "id": "match-0001",
+      "repeat": 1,
+      "players": [
+        "random-a",
+        "random-b"
+      ],
+      "seed": 5010124223080389250
+    }
+  ]
+}

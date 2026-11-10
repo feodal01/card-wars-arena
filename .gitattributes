@@ -1,0 +1,2 @@
+materials/recordings/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+materials/deck-workshop.html filter=lfs diff=lfs merge=lfs -text

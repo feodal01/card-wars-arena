@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Arena workspaces and local game data
+/runs/
+/data/.tmp/
+/local/
+.DS_Store
+.env.*
+!.env.example

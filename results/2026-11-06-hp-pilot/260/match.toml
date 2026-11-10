@@ -1,0 +1,20 @@
+[engine]
+project = "${CARDWARS_UNITY_PROJECT}"
+
+[match]
+seed = 5010124223080389250
+pool = "sample40"
+placement = "own_turn"
+games = 5
+players = ["random-a", "random-b"]
+health = 260
+watch = false
+record = false
+
+[players.random-a]
+kind = "random"
+policy = "uniform"
+
+[players.random-b]
+kind = "random"
+policy = "play-first"

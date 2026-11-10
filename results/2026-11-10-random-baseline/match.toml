@@ -1,0 +1,20 @@
+[engine]
+project = "${CARDWARS_UNITY_PROJECT}"
+
+[match]
+rules_version = "cardwars-v3-en"
+games = 5
+seed = 42
+players = ["random", "random-play-first"]
+pool = "no_obsidian"
+placement = "before_cards"
+health = 100
+watch = false
+
+[players.random]
+kind = "random"
+policy = "uniform"
+
+[players.random-play-first]
+kind = "random"
+policy = "play-first"

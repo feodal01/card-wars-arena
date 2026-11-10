@@ -1,0 +1,26 @@
+[engine]
+project = "${CARDWARS_UNITY_PROJECT}"
+
+[match]
+rules_version = "cardwars-v3-en"
+games = 5
+players = ["terra", "astra"]
+pool = "no_obsidian"
+placement = "before_cards"
+health = 100
+watch = true
+record = true
+
+[harnesses.codex]
+adapter = "codex"
+command = ["codex", "exec", "--ignore-user-config", "--ignore-rules", "--skip-git-repo-check", "--ephemeral", "--json", "{arena}", "{options}", "--", "{prompt}"]
+
+[players.astra]
+harness = "codex"
+effort = "medium"
+model = "gpt-6-astra"
+
+[players.terra]
+harness = "codex"
+model = "gpt-6.1-terra"
+effort = "medium"

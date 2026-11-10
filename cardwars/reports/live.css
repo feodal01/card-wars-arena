@@ -1,0 +1,24 @@
+:root { color-scheme:dark; font:16px/1.45 "Inter",system-ui,sans-serif; color:#edf3ef; background:#101719 }
+* { box-sizing:border-box } body { margin:0 } main { width:min(1340px,100%); margin:auto; padding:28px clamp(16px,4vw,56px) 50px }
+h1,h2,h3,h4,p,ol,ul { margin:0 } h1 { font-size:clamp(2rem,5vw,4rem); line-height:1; letter-spacing:-.06em }
+h2 { font-size:1.35rem } h3 { font-size:1.04rem } h4 { font-size:1.2rem; margin-top:14px }
+.mast,.score,.score>div,nav,header { display:flex; align-items:center; gap:12px }
+.mast,header,.score>div { justify-content:space-between } .mast { padding:0 0 24px } .mast>div { text-align:right }
+small,.muted,nav span { color:#abc0bc } .score { gap:2px }
+.score>div { width:50%; background:#223235; border-top:3px solid #82d9e6; padding:12px 18px; overflow-wrap:anywhere }
+.score>div+div { border-color:#efb392 } .score span { font-size:clamp(1rem,2vw,1.45rem); font-weight:600 }
+.score strong { font-size:1.65rem; font-variant-numeric:tabular-nums } nav { flex-wrap:wrap; padding:20px 0 }
+nav a { color:#d4eae3; text-decoration:none; padding:4px 11px; border:1px solid #49615e; border-radius:4px }
+nav a:focus-visible,nav a:hover { background:#36504b } .columns { display:grid; grid-template-columns:minmax(0,2fr) minmax(245px,1fr); gap:22px; align-items:start }
+.game { display:none; overflow-wrap:anywhere; scroll-margin-top:12px }
+.game:target,.games:not(:has(.game:target)) .game:last-child { display:block }
+header { margin-bottom:14px } header b { text-align:right; font-weight:500; color:#f0ce83 }
+.decks { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-bottom:22px }
+.roster,aside { padding:16px; border:1px solid #354a4b; border-radius:6px; background:#192527 }
+.roster h3 { color:#95e0e9 } .roster+.roster h3 { color:#f1bb9b } .roster ol { padding-left:1.75em; margin-top:10px; font-size:.92rem }
+.roster li { padding:2px 0 } .roster li::marker { color:#8aa3a3; font-size:.8rem }
+.feed { list-style:none; padding:0 } .feed li { padding:9px 0; white-space:pre-wrap; overflow-wrap:anywhere; border-bottom:1px solid #344344 }
+.feed small { display:block; font-size:.8rem } aside h2 { margin-bottom:8px } .muted { font-size:.9rem }
+@media(max-width:760px) { .columns { grid-template-columns:1fr } aside { grid-row:1; max-height:35vh; overflow:auto } }
+@media(max-width:420px) { .decks { grid-template-columns:1fr } .score>div,.roster { padding:10px } }
+.actions { margin-bottom:20px } .actions .feed { max-height:32vh; overflow:auto } aside .feed { max-height:68vh; overflow:auto }

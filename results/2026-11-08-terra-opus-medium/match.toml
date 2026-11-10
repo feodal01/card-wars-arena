@@ -1,0 +1,72 @@
+[engine]
+project = "${CARDWARS_UNITY_PROJECT}"
+
+[match]
+rules_version = "cardwars-v3-en"
+games = 5
+players = ["terra", "opus"]
+pool = "no_obsidian"
+placement = "before_cards"
+health = 100
+watch = true
+record = true
+
+[harnesses.codex]
+adapter = "codex"
+command = ["codex", "exec", "--ignore-user-config", "--ignore-rules", "--skip-git-repo-check", "--ephemeral", "--json", "{arena}", "{options}", "--", "{prompt}"]
+
+[harnesses.claude]
+adapter = "claude"
+command = ["claude", "--print", "--no-session-persistence", "--output-format", "stream-json", "--verbose", "{arena}", "{options}", "--", "{prompt}"]
+
+[harnesses.opencode]
+adapter = "opencode"
+command = ["{python}", "-I", "{arena}", "--format", "json", "{options}", "--", "{prompt}"]
+
+[harnesses.prime]
+adapter = "prime"
+command = ["node", "{arena}", "--print", "--mode", "json", "--no-session", "{options}", "--", "{prompt}"]
+
+[players.astra]
+harness = "codex"
+effort = "high"
+model = "gpt-6-astra"
+
+[players.claude]
+harness = "claude"
+effort = "high"
+model = "claude-opus-5-5"
+
+[players.random]
+kind = "random"
+policy = "uniform"
+
+# Optional opponents for --players. League entrants are listed in league100.toml.
+[players.terra]
+harness = "codex"
+model = "gpt-6.1-terra"
+effort = "medium"
+
+[players.sonnet]
+harness = "claude"
+model = "claude-sonnet-5-5"
+effort = "medium"
+
+[players.opencode]
+harness = "opencode"
+model = "anthropic/claude-opus-5-5"
+effort = "high"
+
+[players.prime]
+harness = "prime"
+model = "anthropic/claude-opus-5-5"
+effort = "high"
+
+[players.random-play-first]
+kind = "random"
+policy = "play-first"
+
+[players.opus]
+harness = "claude"
+model = "claude-opus-5-5"
+effort = "medium"
